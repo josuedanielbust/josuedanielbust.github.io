@@ -15,12 +15,12 @@ a:visited { color: #009eff; text-decoration: none; }
 .navigation .active{ cursor:pointer; color: #009eff; font-weight:bold; }
 
 /* General Slides */ 
-.slide{ background-attachment: fixed; width:100%; height:auto; position: relative; padding: 175px 0; }
+.slide{ background-attachment: fixed; width:100%; height:auto; position: relative; padding: 180px 0; }
 .slide h1 { font-family: 'Great Vibes', cursive; font-weight: 400; }
 .slide h1 span { color: #009eff; }
 
 /* Slide 1 */ 
-#slide1{ background-image:url('../images/22.jpg'); background-color:#009eff; background-position: center; background-size: cover; color:#fff; padding: 230px 0; text-shadow: #000 2px 2px 5px;}
+#slide1{ background-image:url('../images/22.jpg'); background-color:#009eff; background-position: center !important; background-size: cover; color:#fff; padding: 230px 0; text-shadow: #000 2px 2px 5px;}
 #slide1 h1 { font-size: 4em; margin: 10px; }
 #slide1 h2 { font-size: 1.5em; font-weight: 400; }
 #slide1 .separator { margin: 1em 0; }
@@ -31,7 +31,7 @@ a:visited { color: #009eff; text-decoration: none; }
 #slide2 h2 { font-size: 2em; color: #8a8683; line-height: 0px; padding-bottom:20px; font-weight: 400; }
 
 /* Slide 3 */
-#slide3{ background-image:url('../images/9669249877_bd06413e62_o.jpg'); background-color:#8a8683; background-position: center; background-size: cover; color:#fff; }
+#slide3{ background-image:url('../images/9669249877_bd06413e62_o.jpg'); background-color:#8a8683; background-position: center !important; background-size: cover; color:#fff; }
 #slide3 h1 { font-size: 3.8em; line-height: 0px; color:#fff; }
 #slide3 h2 { font-size: 2em; color: #fff; line-height: 0px; padding-bottom:20px; font-weight: 400; }
 #slide3 h2 a { font-weight: bold; }
