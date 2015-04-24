@@ -92,6 +92,7 @@ a:link, a:hover, a:visited {
     font-size: 3.8em;
     line-height: 0px;
     color: #8a8683;
+    text-align: center;
 }
 #slide2 h2 {
     font-size: 2em;
@@ -182,8 +183,7 @@ a:link, a:hover, a:visited {
 	.navigation { width: 100%; float: center; list-style: none; margin: 0; padding:0; }
 	.navigation li { float: left; width:25%; padding:0; }
 	.slide { background-attachment: fixed; width:100%; position: relative; padding:150px 0; }
-	#decorative { display:none; }
-	#content { text-align:center; width:100%; }
+	#content { text-align: justify; width:100%; }
 	#slide1 h1 { line-height: 1em; text-shadow: #000 2px 2px 5px; font-family: 'Great Vibes', cursive; }
     #slide1 h1 span { color: #009eff; }
 	#slide1 h2 { line-height: 1em; }
@@ -191,7 +191,6 @@ a:link, a:hover, a:visited {
 	#slide2 h2 { line-height: 1em; }
 	#slide5 h1 { line-height: 1em; }
 	#slide5 h2 { line-height: 1em; }
-	.imgPosition { height: auto; }
 	.me { padding-top: 0px; }
 }
 
@@ -225,14 +224,14 @@ a:link, a:hover, a:visited {
 /* General Style */
 .separator { border: 1px #ffffff solid; }
 .center { text-align: center; }
-.imgPosition {
-    width: 300px;
-    height: 400px;
-    position: relative;
-}
 .me {
     border-radius: 360px;
     border: 3px solid #009eff;
+    float: right;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-left: 1em;
 }
 #logo p {
     font-size: 1.8em;
