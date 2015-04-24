@@ -68,7 +68,7 @@ a:link, a:hover, a:visited {
 
 /* Slide 1 */
 #slide1 {
-    background-image: url('../images/22.jpg');
+    background-image: url('../images/16626071922_a50f2a67ba_o.jpg');
     background-color: #009eff;
     background-position: center !important;
     background-size: cover;
@@ -103,7 +103,7 @@ a:link, a:hover, a:visited {
 
 /* Slide 3 */
 #slide3 {
-    background-image: url('../images/StickyPost.jpg');
+    background-image: url('../images/8710597354_a85d076653_k.jpg');
     background-color: #009eff;
     background-position: center !important;
     background-size: cover;
@@ -112,7 +112,7 @@ a:link, a:hover, a:visited {
     text-shadow: #000000 2px 2px 5px;
 }
 #slide3 p.quote {
-    font-size: 2em;
+    font-size: 5em;
     margin: 10px;
 }
 #slide3 p.quote:before {
