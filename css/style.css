@@ -134,8 +134,15 @@ a:link, a:hover, a:visited {
 #slide3 .separator { margin: 1em 0; }
 
 /* Slide 4 */
-#slide4 { background-color: #ffffff; }
-#slide4 .separator { border-color: #8a8683; }
+#slide4 {
+    background-color: #ffffff;
+    padding: 80px 0;
+}
+#slide4 .separator {
+    border-color: #8a8683;
+    width: 80%;
+    margin: 0 auto;
+}
 #slide4 .cv-job {
     padding: 2em 1em;
     line-height: 0.5em;
@@ -146,12 +153,22 @@ a:link, a:hover, a:visited {
     font-weight: 700;
     padding: 0;
     margin: 1em 0 0;
+    line-height: 1.3em;
 }
 #slide4 .cv-job .cv-position span {
     font-weight: 400;
 }
 #slide4 .cv-job .cv-image {
-    margin: 1em 0 0;
+    margin: 1em auto 0;
+    vertical-align: middle;
+}
+#slide4 .cv-title {
+    font-size: 3.5em;
+    font-family: 'Great Vibes', cursive;
+    margin: 0;
+}
+#slide4 .cv-title p span {
+    color: #009eff;
 }
 
 /* Slide 5 */
