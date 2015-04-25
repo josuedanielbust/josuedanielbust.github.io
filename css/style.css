@@ -2,7 +2,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 16px;
     color: #8a8683;
     background-color:#ffffff;
 }
@@ -191,7 +191,6 @@ a:link, a:hover, a:visited {
 	#slide2 h2 { line-height: 1em; }
 	#slide5 h1 { line-height: 1em; }
 	#slide5 h2 { line-height: 1em; }
-	.me { padding-top: 0px; }
 }
 
 /* Mobile */
@@ -225,7 +224,7 @@ a:link, a:hover, a:visited {
 .separator { border: 1px #ffffff solid; }
 .center { text-align: center; }
 .me {
-    border-radius: 360px;
+    border-radius: 180px 180px 180px 0px;
     border: 3px solid #009eff;
     float: right;
     position: relative;
