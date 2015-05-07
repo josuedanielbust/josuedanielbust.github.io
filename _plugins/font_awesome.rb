@@ -24,12 +24,6 @@
 #
 # Font Awesome Icons Liquid Tag
 # Documentation can be found at http://fontawesome.io/
-#
-# Example:
-#    {% icon fa-camera-retro %}
-#    {% icon fa-camera-retro fa-lg %}
-#    {% icon fa-spinner fa-spin %}
-#    {% icon fa-shield fa-rotate-90 %}
 
 module Jekyll
   class FontAwesomeTag < Liquid::Tag
