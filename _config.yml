@@ -10,8 +10,3 @@ github_username:  JosueDanielBust
 # Build settings
 markdown: kramdown
 permalink: /blog/:year-:month/:title.html
-
-gems:
-- font_awesome
-- reading_time
-- youtube

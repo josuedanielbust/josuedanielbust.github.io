@@ -63,3 +63,4 @@ eos
 end
 
 Liquid::Template.register_tag('icon', Jekyll::FontAwesomeTag)
+#Liquid::Template.register_tag('icon', FontAwesomeTag)
