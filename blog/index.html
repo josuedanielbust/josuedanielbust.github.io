@@ -3,7 +3,8 @@ layout: default
 ---
 
 <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.posts %}{% endfor %}
+    {% for post in paginator.posts %}
     <div class="grid_12">
         <div class="grid_4">
             {% if post.image %}
@@ -28,5 +29,13 @@ layout: default
     </div>
     <!-- <div class="grid_12"><div class="post-list-separator"></div></div> -->
     {% endfor %}
+    <div class="drig_12 post-list-paginator">
+        <div class="grid_6">
+            {% if paginator.previous_page %}<p class="pagination"><a href="{{ paginator.previous_page_path }}"><i class="fa fa-hand-o-left"></i> Previous</a></p>{% endif %}
+        </div>
+        <div class="grid_6 omega">
+            {% if paginator.next_page %}<p class="pagination"><a href="{{ paginator.next_page_path }}">Next <i class="fa fa-hand-o-right"></i></a></p>{% endif %}
+        </div>
+    </div>
 </ul>
 <p class="rss-subscribe grid_12" style="text-align: right;"><i class="fa fa-rss"></i> Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

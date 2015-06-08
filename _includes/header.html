@@ -7,7 +7,6 @@
             <h2 style="font-size:2em;">{% if page.title %}{{ page.title }}{% else %}¡Bienvenidos a mi blog!{% endif %}</h2>
             <p class="post-meta">
                 {{ page.date | date: "%b %-d, %Y" }}
-                {% if page.title %} • Read this in about {{ page.content | reading_time }}{% else %}{% endif %}
                 {% if page.meta %} • {{ page.meta }}{% endif %}
             </p>
         </div>

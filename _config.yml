@@ -10,3 +10,6 @@ github_username:  JosueDanielBust
 # Build settings
 markdown: kramdown
 permalink: /blog/:year-:month/:title.html
+paginate: 10
+paginate_path: "/blog/page:num/"
+gem: font_awesome, reading_time, youtube

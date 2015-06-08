@@ -288,3 +288,6 @@ ul.post-list .grid_12 .post-list-separator {
     margin:0 auto;
     width:80%;
 }
+ul.post-list .post-list-paginator .grid_6 p.pagination {
+    text-align: center;
+}
