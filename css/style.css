@@ -117,8 +117,7 @@ a:link, a:hover, a:visited {
     padding: 180px 0;
 }
 .slide h1 {
-    font-family: 'Great Vibes', cursive;
-    font-weight: 400;
+    font-family: 'cabin';
 }
 .slide h1 span {
     color: #009eff;
@@ -135,7 +134,7 @@ a:link, a:hover, a:visited {
     text-shadow: #000 2px 2px 5px;
 }
 #slide1 h1 {
-    font-size: 4em;
+    font-size: 3.5em;
     margin: 10px;
 }
 #slide1 h2 {
@@ -219,11 +218,11 @@ a:link, a:hover, a:visited {
 #slide4 .cv-job .cv-image {
     margin: 1em auto 0;
     vertical-align: middle;
+    max-height: 100px;
 }
 #slide4 .cv-title {
     font-size: 3.5em;
     font-family: 'cabin';
-    font-weight: bold;
     margin: 0;
 }
 #slide4 .cv-title p span {
