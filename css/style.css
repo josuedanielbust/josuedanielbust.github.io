@@ -349,3 +349,18 @@ ul.post-list .grid_12 .post-list-separator {
 ul.post-list .post-list-paginator .grid_6 p.pagination {
     text-align: center;
 }
+blockquote {
+    text-align: center;
+}
+.header-quote {
+    line-height: 1.5em;
+}
+.header-quote h3 {
+    margin-top: 0.5em;
+}
+.header-quote h3:before {
+    content: '- ' ;
+}
+.post-meta {
+    color: #f2f2f2;
+}

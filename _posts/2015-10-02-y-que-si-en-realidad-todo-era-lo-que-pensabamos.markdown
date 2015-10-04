@@ -4,7 +4,7 @@ title: "¿Y que si en realidad todo era lo que pensábamos?"
 date: 2015-10-02 10:00:00
 comments: true
 categories: jekyll
-image: /images/16625634421_9b260a639a_o.jpg
+image: /images/posts/y-que-si-en-realidad-todo-era-lo-que-pensabamos.jpg
 ---
 
 ¿Y que si en realidad todo era lo que pensábamos?
