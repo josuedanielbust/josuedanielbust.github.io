@@ -107,6 +107,9 @@ a:link, a:hover, a:visited {
     color: #009eff;
     font-weight:bold;
 }
+.navigation a li {
+    color: #8A8683;
+}
 
 /* General Slides */
 .slide {
