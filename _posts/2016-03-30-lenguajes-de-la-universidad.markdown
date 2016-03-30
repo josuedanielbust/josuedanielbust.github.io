@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Lenguajes de la Universidad"
+date: 2016-03-30 01:20:00
+comments: true
+categories: jekyll, development, languajes
+image: /images/posts/lenguajes-de-la-universidad.jpg
+---
+
+Llegue en estos días a la oficina y me encuentro con que una compañera estaba feliz por un [post](http://anamariasosa.com/blog/la-universidad "Ana's post") que [Ana María Sosa](https://twitter.com/anamariasosam "Ana's twitter"), una amiga mía y compañera había escrito. Ya lo había encontrado en Facebook e incluso encontré que estaba compartido por un amigo pero no había tenido el tiempo de leerlo hasta ese momento en el que mi compañera me hizo leerlo casi que a la fuerza por las maravillas que contaba y la felicidad que notaba por aquí post.
+
+Me senté y me dispuse a leerlo pero encontré que aunque es un muy buen post que narrado desde su experiencia e historia principal tiene mucho hilo que dar pero allí se quedo, pensé que encontraría mas en aquellas palabras pero se quedo corto. Por eso mismo pensé en yo seguirle un poco el hilo.
+
+Antes de comenzar de con todo el tema y mi pensamiento quiero decir que me alegra mucho el avance que ha tenido Ana desde que la conocí hasta ahora que hasta lo ultimo que se es que esta comenzando a hacer ¡Comunidad en Medellín de Mujeres!, es genial poder decir que de Coderise programa del cual soy Director en la ciudad de Medellín podemos rescatar casos de éxito como ella.
+
+Yo básicamente también puedo contar la misma historia de Ana de la Suma debido a que estudie con ella en Coderise y conocía algunas bases de JS desde aquel entonces y también pues seguí en mi camino propio estudiando mas sobre JS y otros lenguajes entonces para mi sentir esa emoción de ver un programa que sumara o hiciera una operación era nula e incluso muchas veces con ejercicios mas avanzados era la misma emoción, nula.
+
+Es cierto que en la universidad siempre nos encontramos unos lenguajes que en realidad en el momento en el mercado no nos han de servir, pero que en cierta forma nos dan las bases para aprender otro lenguajes más. En mi caso yo me encuentro en mi universidad con Lenguajes como Java, C++ y Ruby en las materias de programación pero en las otras materias en las que nos toca programar, codificar o crear algún programa por mas simple que sea muchas veces nos vemos obligados a hacerlo en algún lenguaje como Java.
+
+No soy muy fan de los lenguajes de este estilo pero si me he enamorado de Ruby por su sencillez a demás de que puedo usarlo en el paso a Ruby on Rails e incluso dar un paso simple a aprender Python.
+
+Nada más el otro día me tocaba hacer un ejercicio que el profesor de una materia nos había puesto a hacer y yo sin antes ver los requisitos me lance a hacerlo en Ruby por que no me siento muy cómodo usando Java, lo que paso es que cuando lo termine y fui a enviar el ejercicio me lo pedían en otros lenguajes como Java y Python y ¡Oh sorpresa grata que me lleve!, contando con poco tiempo para enviar el ejercicio debía hacerlo en otro lenguaje. Aunque Java lo aprendi y practique menos de 4 meses atrás no me sentía cómodo usándolo y Python pues ya ni lo conocía por decirlo así por cuestiones de que la practica de este lenguaje estaba oxidada pero aún así me lance a hacerlo en Python pero no cualquiera Python 3 que era totalmente nuevo para mi. ¿La razón de mi decisión? La sintaxis es más fácil de pasar de Ruby a Python que de Ruby a Java y el resultado es que al final logre hacer el ejercicio y enviarlo a tiempo con menos tiempo en el que Java me hubiera gastado hacerlo desde 0.
+
+Así que puedo decir que en realidad para mi en mi humilde opinion me parece que la Universidad nos da lenguajes bases para aprender otros lenguajes, la cuestión no es de que la Universidad nos de todo en bandeja de plata y salir a trabajar de una con esos lenguajes; la cuestión real es comenzar a gastar tiempo en practicar y aprender nuevos lenguajes con las bases que obtenemos en la Universidad por que en realidad lo que hace al profesional no es la enseñanza que se le da, lo que hace al profesional en realidad es la practica y el aprendizaje fuera de los lenguajes que ahora están casi que mandados a recoger.
+
+Ahora no se si como lector te estés preguntando ¿Cual lenguaje debería escoger para comenzar a aprender y a practicar?. Yo no soy quien para decirte cual pero si tomo el trabajo de la comunidad de Desarrollo en Colombia en el mes de Febrero con su [encuesta](https://medium.com/colombia-dev/an%C3%A1lisis-encuesta-salarios-desarrolladores-colombiadev-2016-9969a621ec39#.aie2a4rnp "Colombia Dev Survey") para dar a conocer como esta el trabajo en desarrollo en Colombia y de la cual quiero destacar los datos como los lenguajes más usados, mas bien pagados y los que tristemente no son tan bien pagados que incluso también comparte Ana en su blog.
+
+Lo siguiente que quiero tocar es la historia que ella comentaba de los comentarios de sus compañeros de que les aburría la programación y eso si que lo he visto yo una y otra vez en la Universidad en la que yo estudio, eso si no esta lejos de la realidad pero firmemente creo que eso no es debido a que sean los lenguajes no competitivos o los lenguajes mas aburridos, la realidad es que muchas veces si le debemos eso tanto al estudiando como al profesor. Al estudiante por no poner de su tiempo para practicar y ser mejor y al maestro o profesor por no despertar en el estudiante la pasión por el desarrollo.
+
+Yo le debo la pasión y el amor que le tengo al desarrollo a personas como lo son [Julian Duque](https://twitter.com/julian_duque "Julian's twitter"), [Camilo Aguilar](https://github.com/c4milo "Camilo's twitter"), [Catherine Lopez](https://twitter.com/lopezcatherine "Catherine's twitter") y [Adrian Estrada](https://twitter.com/edsadr "Adrian's twitter") que si se toman su papel de maestros y creadores de comunidad muy enserio compartiendo su pasión y es que de ahi viene también el éxito de comunidades como [MedellinJS](http://medellinjs.org/ "Medellin Javascript Community") y [Colombia Dev](https://github.com/colombia-dev "Colombia Dev Community") que son dirigidas por personas como ellas.
