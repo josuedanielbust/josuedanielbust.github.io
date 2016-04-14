@@ -5,8 +5,8 @@
         <description>Web Developer &amp;amp; Young Entrepreneur by Passion - Coffee Lover - //CodeRiser - Maker networks - Medellín Director at @Code_rise</description>
         <link>http://josuedanielbust.com/</link>
         <atom:link href="http://josuedanielbust.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 30 Mar 2016 10:24:05 -0500</pubDate>
-        <lastBuildDate>Wed, 30 Mar 2016 10:24:05 -0500</lastBuildDate>
+        <pubDate>Thu, 14 Apr 2016 13:53:18 -0500</pubDate>
+        <lastBuildDate>Thu, 14 Apr 2016 13:53:18 -0500</lastBuildDate>
         <generator>Jekyll v3.1.2</generator>
         
             <item>
@@ -38,11 +38,13 @@
                 <guid isPermaLink="true">http://josuedanielbust.com/blog/2016-03/lenguajes-de-la-universidad.html</guid>
                 
                 
-                    <category>jekyll,</category>
+                    <category>Desarrollo</category>
                 
-                    <category>development,</category>
+                    <category>Development</category>
                 
-                    <category>languajes</category>
+                    <category>Languages</category>
+                
+                    <category>Universidad</category>
                 
             </item>
         
@@ -65,7 +67,13 @@
                 <guid isPermaLink="true">http://josuedanielbust.com/blog/2015-10/la-inexplicable-pasion-por-caminar-bajo-la-lluvia.html</guid>
                 
                 
-                    <category>jekyll</category>
+                    <category>Amor</category>
+                
+                    <category>Lluvia</category>
+                
+                    <category>Pasión</category>
+                
+                    <category>Tristeza</category>
                 
             </item>
         
@@ -120,7 +128,9 @@
                 <guid isPermaLink="true">http://josuedanielbust.com/blog/2015-10/quien-dijo-que-el-amar-era-facil.html</guid>
                 
                 
-                    <category>jekyll</category>
+                    <category>Amor</category>
+                
+                    <category>Sentimientos</category>
                 
             </item>
         
@@ -147,7 +157,11 @@ Que eras la persona perfecta para mi, quien podría conquistar este tierno y det
                 <guid isPermaLink="true">http://josuedanielbust.com/blog/2015-10/y-que-si-en-realidad-todo-era-lo-que-pensabamos.html</guid>
                 
                 
-                    <category>jekyll</category>
+                    <category>Inspiración</category>
+                
+                    <category>Pensamientos</category>
+                
+                    <category>Tardes</category>
                 
             </item>
         

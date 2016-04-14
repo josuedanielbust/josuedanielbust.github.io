@@ -3,7 +3,7 @@
 <div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5" style="{% if page.image %}background-image: url('{{ page.image }}');{% endif %} padding: 150px 0px 100px;">
     <div class="container clearfix">
         <div id="content" class="grid_12 center">
-            <h1 style="font-size:2.5em;">{% if page.title %}{{ page.title }}{% else %}¡Bienvenidos a mi blog!{% endif %}</h1>
+            <h1 style="font-size:2.5em;" itemprop="name headline">{% if page.title %}{{ page.title }}{% else %}¡Bienvenidos a mi blog!{% endif %}</h1>
 	    {% if page.quote %}
 	        <div class="header-quote">
 	            <h2 style="font-size:1.5em;">{% if page.quote %}{{ page.quote }}{% endif %}</h2>
@@ -11,7 +11,7 @@
 	        </div>
 	    {% endif %}
             <p class="post-meta">
-                {{ page.date | date: "%b %-d, %Y" }}
+                <span itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</span>
                 {% if page.meta %} • {{ page.meta }}{% endif %}
             </p>
         </div>

@@ -3,7 +3,7 @@ layout: post
 title: "¿Y que si en realidad todo era lo que pensábamos?"
 date: 2015-10-02 10:00:00
 comments: true
-categories: jekyll
+categories: Pensamientos Tardes Inspiración
 image: /images/posts/y-que-si-en-realidad-todo-era-lo-que-pensabamos.jpg
 ---
 

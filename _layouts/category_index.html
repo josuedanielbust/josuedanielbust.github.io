@@ -1,0 +1,39 @@
+---
+layout: default-post
+---
+
+<ul class="posts post-list">
+    {% for post in site.categories[page.category] %}
+	<div class="grid_12">
+        <div class="grid_4">
+            {% if post.image %}
+            <a href="{{ post.url | prepend: site.baseurl }}"><div class="post-list-image" style="background-image: url('{{ post.image }}');"></div></a>
+            {% else %}{% endif %}
+        </div>
+        <div class="grid_8 omega">
+            <p class="post-list-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+            <p class="post-list-categories">{{ post.categories | category_links }}</p>
+            <p class="post-list-excerpt">{{ post.excerpt | strip_html | truncatewords:25 }}</p>
+            <div class="post-list-meta grid_12">
+                <div class="grid_4">
+                    <p class="post-list-date"><i class="fa fa-clock-o"></i> {{ post.date | date: "%b %-d, %Y" }}</p>
+                </div>
+                <div class="grid_4">
+                    <p class="post-list-comments"> <i class="fa fa-comments"></i> <span class="disqus-comment-count" data-disqus-url="{{ post.url | prepend: site.baseurl }}">Comments</span> </p>
+                </div>
+                <div class="grid_4 omega">
+                    <p class="post-list-readmore"><a href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-terminal"></i> Read more...</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    <div class="drig_12 post-list-paginator">
+        <div class="grid_6">
+            {% if paginator.previous_page %}<p class="pagination"><a href="{{ paginator.previous_page_path }}"><i class="fa fa-hand-o-left"></i> Previous</a></p>{% endif %}
+        </div>
+        <div class="grid_6 omega">
+            {% if paginator.next_page %}<p class="pagination"><a href="{{ paginator.next_page_path }}">Next <i class="fa fa-hand-o-right"></i></a></p>{% endif %}
+        </div>
+    </div>
+</ul>

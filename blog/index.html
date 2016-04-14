@@ -12,7 +12,8 @@ layout: default-post
             {% else %}{% endif %}
         </div>
         <div class="grid_8 omega">
-            <p><a class="post-list-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+            <p class="post-list-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+            <p class="post-list-categories">{{ post.categories | category_links }}</p>
             <p class="post-list-excerpt">{{ post.excerpt | strip_html | truncatewords:25 }}</p>
             <div class="post-list-meta grid_12">
                 <div class="grid_4">

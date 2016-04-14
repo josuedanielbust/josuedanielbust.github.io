@@ -5,7 +5,7 @@ quote: "El amor: El arma más potente de todas, la madre de las mentiras, y el p
 quoteauthor: "Josue Daniel Bustamante"
 date: 2015-10-03 10:00:00
 comments: true
-categories: jekyll
+categories: Amor Sentimientos
 image: /images/posts/quien-dijo-que-el-amar-era-facil.jpg
 ---
 

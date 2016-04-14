@@ -3,7 +3,7 @@ layout: post
 title: "La inexplicable pasión por caminar bajo la lluvia"
 date: 2015-10-04 10:00:00
 comments: true
-categories: jekyll
+categories: Lluvia Pasión Amor Tristeza
 image: /images/posts/la-inexplicable-pasion-por-caminar-bajo-la-lluvia.jpg
 ---
 
