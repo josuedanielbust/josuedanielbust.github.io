@@ -33,10 +33,40 @@ layout: home
         <div class="grid_12 cv-title center">
             <p><span>E</span>xperiencia Laboral</p>
         </div>
-	<div id="exp"></div>
+	<div id="exp">
+        {% for exp in site.data.exp %}
+            <div class="grid_12">
+                <div class="cv-job">
+                    <div class="grid_9">
+                        <p class="cv-position">{{ exp.what }}<span> en {{ exp.where }}</span></p>
+                        <p class="cv-place">{{ exp.place }}</p>
+                        <p class="cv-date">{{ exp.date }}</p>
+                    </div>
+                    <div class="grid_3 omega">
+                        <img src="/images/jobs/{{ exp.image }}" alt="{{ exp.where }}" class="cv-image" width="auto">
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 	<div class="grid_12 cv-title center">
             <p><span>E</span>studios</p>
         </div>
-	<div id="est"></div>
+	<div id="est">
+        {% for est in site.data.est %}
+            <div class="grid_12">
+                <div class="cv-job">
+                    <div class="grid_9">
+                        <p class="cv-position">{{ est.what }}<span> en {{ est.where }}</span></p>
+                        <p class="cv-place">{{ est.place }}</p>
+                        <p class="cv-date">{{ est.date }}</p>
+                    </div>
+                    <div class="grid_3 omega">
+                        <img src="/images/jobs/{{ est.image }}" alt="{{ est.where }}" class="cv-image" width="auto">
+                    </div>
+                </div>
+            </div>
+        {% endfor %}   
+    </div>
     </div>
 </div>
