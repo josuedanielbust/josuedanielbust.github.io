@@ -3,11 +3,11 @@
     <channel>
         <title>JosueDanielBust - Blog</title>
         <description>Web Developer &amp;amp; Young Entrepreneur by Passion - Coffee Lover - //CodeRiser - Maker networks - Medellín Director at @Code_rise</description>
-        <link>http://josuedanielbust.com/</link>
-        <atom:link href="http://josuedanielbust.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 15 Oct 2016 00:33:36 -0500</pubDate>
-        <lastBuildDate>Sat, 15 Oct 2016 00:33:36 -0500</lastBuildDate>
-        <generator>Jekyll v3.2.1</generator>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 07 Dec 2016 22:39:22 -0500</pubDate>
+        <lastBuildDate>Wed, 07 Dec 2016 22:39:22 -0500</lastBuildDate>
+        <generator>Jekyll v3.3.1</generator>
         
             <item>
                 <title>Lenguajes de la Universidad</title>
@@ -34,15 +34,15 @@
 &lt;p&gt;Yo le debo la pasión y el amor que le tengo al desarrollo a personas como lo son &lt;a href=&quot;https://twitter.com/julian_duque&quot; title=&quot;Julian's twitter&quot;&gt;Julian Duque&lt;/a&gt;, &lt;a href=&quot;https://github.com/c4milo&quot; title=&quot;Camilo's twitter&quot;&gt;Camilo Aguilar&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/lopezcatherine&quot; title=&quot;Catherine's twitter&quot;&gt;Catherine Lopez&lt;/a&gt; y &lt;a href=&quot;https://twitter.com/edsadr&quot; title=&quot;Adrian's twitter&quot;&gt;Adrian Estrada&lt;/a&gt; que si se toman su papel de maestros y creadores de comunidad muy enserio compartiendo su pasión y es que de ahi viene también el éxito de comunidades como &lt;a href=&quot;http://medellinjs.org/&quot; title=&quot;Medellin Javascript Community&quot;&gt;MedellinJS&lt;/a&gt; y &lt;a href=&quot;https://github.com/colombia-dev&quot; title=&quot;Colombia Dev Community&quot;&gt;Colombia Dev&lt;/a&gt; que son dirigidas por personas como ellas.&lt;/p&gt;
 </description>
                 <pubDate>Tue, 29 Mar 2016 20:20:00 -0500</pubDate>
-                <link>http://josuedanielbust.com/blog/2016-03/lenguajes-de-la-universidad.html</link>
-                <guid isPermaLink="true">http://josuedanielbust.com/blog/2016-03/lenguajes-de-la-universidad.html</guid>
+                <link>http://localhost:4000/blog/2016-03/lenguajes-de-la-universidad.html</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/2016-03/lenguajes-de-la-universidad.html</guid>
                 
-                
-                    <category>Desarrollo</category>
                 
                     <category>Development</category>
                 
                     <category>Languages</category>
+                
+                    <category>Desarrollo</category>
                 
                     <category>Universidad</category>
                 
@@ -63,15 +63,15 @@
 &lt;p&gt;Se que lo seguiré haciendo mientras pueda y la salud me lo permita, por que también se que algún día de esa compañía no podre disfrutar más.&lt;/p&gt;
 </description>
                 <pubDate>Sun, 04 Oct 2015 05:00:00 -0500</pubDate>
-                <link>http://josuedanielbust.com/blog/2015-10/la-inexplicable-pasion-por-caminar-bajo-la-lluvia.html</link>
-                <guid isPermaLink="true">http://josuedanielbust.com/blog/2015-10/la-inexplicable-pasion-por-caminar-bajo-la-lluvia.html</guid>
+                <link>http://localhost:4000/blog/2015-10/la-inexplicable-pasion-por-caminar-bajo-la-lluvia.html</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/2015-10/la-inexplicable-pasion-por-caminar-bajo-la-lluvia.html</guid>
                 
-                
-                    <category>Amor</category>
                 
                     <category>Lluvia</category>
                 
                     <category>Pasión</category>
+                
+                    <category>Amor</category>
                 
                     <category>Tristeza</category>
                 
@@ -124,8 +124,8 @@
 &lt;/div&gt;
 </description>
                 <pubDate>Sat, 03 Oct 2015 05:00:00 -0500</pubDate>
-                <link>http://josuedanielbust.com/blog/2015-10/quien-dijo-que-el-amar-era-facil.html</link>
-                <guid isPermaLink="true">http://josuedanielbust.com/blog/2015-10/quien-dijo-que-el-amar-era-facil.html</guid>
+                <link>http://localhost:4000/blog/2015-10/quien-dijo-que-el-amar-era-facil.html</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/2015-10/quien-dijo-que-el-amar-era-facil.html</guid>
                 
                 
                     <category>Amor</category>
@@ -153,15 +153,15 @@ Que eras la persona perfecta para mi, quien podría conquistar este tierno y det
 &lt;p&gt;Tardes de Inspiración — Josué Daniel Bustamante&lt;/p&gt;
 </description>
                 <pubDate>Fri, 02 Oct 2015 05:00:00 -0500</pubDate>
-                <link>http://josuedanielbust.com/blog/2015-10/y-que-si-en-realidad-todo-era-lo-que-pensabamos.html</link>
-                <guid isPermaLink="true">http://josuedanielbust.com/blog/2015-10/y-que-si-en-realidad-todo-era-lo-que-pensabamos.html</guid>
+                <link>http://localhost:4000/blog/2015-10/y-que-si-en-realidad-todo-era-lo-que-pensabamos.html</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/2015-10/y-que-si-en-realidad-todo-era-lo-que-pensabamos.html</guid>
                 
-                
-                    <category>Inspiración</category>
                 
                     <category>Pensamientos</category>
                 
                     <category>Tardes</category>
+                
+                    <category>Inspiración</category>
                 
             </item>
         
