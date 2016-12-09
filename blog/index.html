@@ -3,19 +3,30 @@ layout: default
 ---
 
 <ul class="post-list">
-    {% for post in site.posts %}{% endfor %}
     {% for post in paginator.posts %}
     <div class="grid_12">
         <div class="grid_4">
             {% if post.image %}
             <a href="{{ post.url | prepend: site.baseurl }}"><div class="post-list-image" style="background-image: url('{{ post.image }}');"></div></a>
-            {% else %}{% endif %}
+            {% endif %}
         </div>
         <div class="grid_8 omega">
             <p class="post-list-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-            <!--
-            <p class="post-list-categories">{{ post.categories | category_links }}</p>
-            -->
+
+            <!-- Categories -->
+                {% capture categories_content %}
+                    {% for pcategory in post.categories %}
+                        {% for scategory in site.my_categories %}
+                            {% if pcategory == scategory.slug %}
+                                <span><a class="label" href="{{ scategory.url }}"><i class="fa fa-tags"></i> {{ scategory.name }}</a></span>
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+                {% endcapture %}
+
+            <p class="post-list-categories">{{ categories_content }}</p>
+            <!-- End Categories -->
+
             <p class="post-list-excerpt">{{ post.excerpt | strip_html | truncatewords:25 }}</p>
             <div class="post-list-meta grid_12">
                 <div class="grid_4">

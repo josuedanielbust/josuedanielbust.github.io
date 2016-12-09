@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>JosueDanielBust - Blog</title>
-        <description>Web Developer &amp;amp; Young Entrepreneur by Passion - Coffee Lover - //CodeRiser - Maker networks - Medellín Director at @Code_rise</description>
+        <description>Web Developer &amp;amp; Young Entrepreneur by Passion - Coffee Lover - //Coderiser - Maker networks - Medellín Director at @coderiseorg</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 07 Dec 2016 22:39:22 -0500</pubDate>
-        <lastBuildDate>Wed, 07 Dec 2016 22:39:22 -0500</lastBuildDate>
+        <pubDate>Fri, 09 Dec 2016 01:01:29 -0500</pubDate>
+        <lastBuildDate>Fri, 09 Dec 2016 01:01:29 -0500</lastBuildDate>
         <generator>Jekyll v3.3.1</generator>
         
             <item>
@@ -38,13 +38,13 @@
                 <guid isPermaLink="true">http://localhost:4000/blog/2016-03/lenguajes-de-la-universidad.html</guid>
                 
                 
-                    <category>Development</category>
+                    <category>development</category>
                 
-                    <category>Languages</category>
+                    <category>lenguajes</category>
                 
-                    <category>Desarrollo</category>
+                    <category>desarrollo</category>
                 
-                    <category>Universidad</category>
+                    <category>universidad</category>
                 
             </item>
         
@@ -67,13 +67,13 @@
                 <guid isPermaLink="true">http://localhost:4000/blog/2015-10/la-inexplicable-pasion-por-caminar-bajo-la-lluvia.html</guid>
                 
                 
-                    <category>Lluvia</category>
+                    <category>lluvia</category>
                 
-                    <category>Pasión</category>
+                    <category>pasion</category>
                 
-                    <category>Amor</category>
+                    <category>amor</category>
                 
-                    <category>Tristeza</category>
+                    <category>tristeza</category>
                 
             </item>
         
@@ -128,9 +128,9 @@
                 <guid isPermaLink="true">http://localhost:4000/blog/2015-10/quien-dijo-que-el-amar-era-facil.html</guid>
                 
                 
-                    <category>Amor</category>
+                    <category>amor</category>
                 
-                    <category>Sentimientos</category>
+                    <category>sentimientos</category>
                 
             </item>
         
@@ -157,11 +157,11 @@ Que eras la persona perfecta para mi, quien podría conquistar este tierno y det
                 <guid isPermaLink="true">http://localhost:4000/blog/2015-10/y-que-si-en-realidad-todo-era-lo-que-pensabamos.html</guid>
                 
                 
-                    <category>Pensamientos</category>
+                    <category>pensamientos</category>
                 
-                    <category>Tardes</category>
+                    <category>tardes</category>
                 
-                    <category>Inspiración</category>
+                    <category>inspiracion</category>
                 
             </item>
         

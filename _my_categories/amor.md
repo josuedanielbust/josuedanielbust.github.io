@@ -1,0 +1,4 @@
+---
+slug: amor
+name: Amor
+---

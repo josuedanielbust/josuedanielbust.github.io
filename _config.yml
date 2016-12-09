@@ -1,7 +1,7 @@
 # Site settings
 title: JosueDanielBust - Blog
 email: josuedanielbustamante@gmail.com
-description: Web Developer &amp; Young Entrepreneur by Passion - Coffee Lover - //CodeRiser - Maker networks - Medellín Director at @Code_rise
+description: Web Developer &amp; Young Entrepreneur by Passion - Coffee Lover - //Coderiser - Maker networks - Medellín Director at @coderiseorg
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://josuedanielbust.com" # the base hostname & protocol for your site
 twitter_username: JosueDanielBust
@@ -12,8 +12,41 @@ markdown: kramdown
 permalink: /blog/:year-:month/:title.html
 paginate: 10
 paginate_path: "/blog/page:num/"
-gems: [jekyll-paginate]
-#gems: [jekyll-paginate, font_awesome, reading_time, youtube]
+gems: 
+  - jekyll-paginate
+  - jekyll-sitemap
+#  - youtube
 
-# Categories
-category_dir: /blog/categories
+# Conversion
+markdown:    kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Collections
+collections:
+  my_categories:
+    output: true
+    permalink: /blog/category/:name/
+
+# Defaults values
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      post: true
+  -
+    scope:
+      path: ""
+      type: my_categories
+    values:
+      layout: category_list

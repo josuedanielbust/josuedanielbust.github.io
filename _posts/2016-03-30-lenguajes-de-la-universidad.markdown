@@ -3,7 +3,7 @@ layout: post
 title: "Lenguajes de la Universidad"
 date: 2016-03-30 01:20:00
 comments: true
-categories: Development Languages Desarrollo Universidad
+categories: [development, lenguajes, desarrollo, universidad]
 image: /images/posts/lenguajes-de-la-universidad.jpg
 ---
 

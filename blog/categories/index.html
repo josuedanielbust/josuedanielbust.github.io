@@ -4,10 +4,9 @@ title: Categorías
 ---
 
 <div id="categories">
-    {% for category in site.categories %}
-    <div class="archive-group grid_3">
-        {% capture category_name %}{{ category | first }}{% endcapture %}
-        <a href="/blog/categories/{{ category_name }}">{{ category_name }}</a>
-    </div>
+    {% for scategory in site.my_categories %}
+        <div class="archive-group grid_3">
+            <a class="label" href="{{ scategory.url }}"><i class="fa fa-tags"></i> {{ scategory.name }}</a>
+        </div>
     {% endfor %}
 </div>

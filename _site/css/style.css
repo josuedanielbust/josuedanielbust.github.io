@@ -330,8 +330,14 @@ ul.post-list .grid_8 .post-list-title {
     margin: 0.2em 0;
 }
 ul.post-list .grid_8 .post-list-categories {
-    font-size: 1em;
+    font-size: 0.8em;
     margin: 1em 0 0.1em;
+}
+ul.post-list .grid_8 .post-list-categories span {
+    margin-right: 0.5rem;
+}
+ul.post-list .grid_8 .post-list-categories span a i {
+    font-size: 0.8rem;
 }
 ul.post-list .grid_8 .post-list-excerpt {
     font-size: 0.9em;
@@ -377,4 +383,32 @@ blockquote {
 }
 #categories .grid_3:nth-child(4n) {
     margin-right: 0;
+}
+.post-categories {
+    margin: 3rem 0;
+    text-align: center;
+}
+.post-categories p {
+    margin: 0.2rem 0;
+}
+.post-categories p:first-child {
+    font-size: 1.2rem;
+}
+.post-categories p span {
+    margin: 0 0.5rem;
+}
+
+
+.post-list #no-category-posts {
+    text-align: center;
+    font-size: 2rem;
+    margin: 3rem;
+}
+.post-list #no-category-posts p {
+    margin: 0;
+    padding: 0;
+}
+.post-list #no-category-posts .errorNumber {
+    font-size: 5rem;
+    line-height: 4rem;
 }

@@ -1,7 +1,27 @@
 ---
 layout: default
 ---
+<!-- Content -->
 {{ content }}
+
+<!-- Categories -->
+{% capture categories_content %}
+    {% for pcategory in page.categories %}
+        {% for scategory in site.my_categories %}
+            {% if pcategory == scategory.slug %}
+                <span><a class="label" href="{{ scategory.url }}"><i class="fa fa-tags"></i> {{ scategory.name }}</a></span>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endcapture %}
+
+<div class="post-categories">
+    <p>Posted in</p>
+    <p>{{ categories_content }}</p>
+</div>
+<!-- End Categories -->
+
+<!-- Comments -->
 {% if page.comments %}
 <div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -14,3 +34,4 @@ layout: default
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {% endif %}
+<!-- End Comments -->
