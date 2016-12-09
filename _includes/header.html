@@ -11,7 +11,7 @@
 	        </div>
 	    {% endif %}
             <p class="post-meta">
-                {{ page.date | date: "%b %-d, %Y" }}
+                {{ page.date | date: "%b %-d, %Y" }}{% if page.post %} • {% include reading-time.html %}{% endif %}
                 {% if page.meta %} • {{ page.meta }}{% endif %}
             </p>
         </div>
