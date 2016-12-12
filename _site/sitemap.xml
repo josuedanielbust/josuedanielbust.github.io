@@ -35,7 +35,13 @@
 <loc>http://localhost:4000/blog/category/development/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/blog/category/github/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/blog/category/inspiracion/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/category/jekyll/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/blog/category/lenguajes/</loc>

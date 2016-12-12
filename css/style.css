@@ -412,3 +412,24 @@ blockquote {
     font-size: 5rem;
     line-height: 4rem;
 }
+
+
+hr {
+    background-color: #ccc;
+    border: 0px;
+    height: 1px;
+    margin: 4rem 4rem;
+}
+code {
+    font-size: 0.9rem;
+}
+h3 code {
+    font-size: 1.2rem
+}
+.highlighter-rouge pre {
+    font-size: 0.8rem;
+    margin: 1rem 2rem;
+}
+.highlighter-rouge pre code {
+    background-color: #fff;
+}
