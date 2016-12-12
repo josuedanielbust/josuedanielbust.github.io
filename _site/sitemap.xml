@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/blog/2016-12/categorias-jekyll-github-sin-plugins-linea-por-linea.html</loc>
+<lastmod>2016-12-12T06:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/2016-12/categorias-jekyll-github-sin-plugins.html</loc>
+<lastmod>2016-12-12T05:30:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/blog/2016-03/lenguajes-de-la-universidad.html</loc>
 <lastmod>2016-03-29T20:20:00-05:00</lastmod>
 </url>

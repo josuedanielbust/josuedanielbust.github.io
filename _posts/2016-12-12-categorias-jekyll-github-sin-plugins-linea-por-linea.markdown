@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “Categorías en Jekyll y Github sin plugins - Linea por Linea”
+title: Categorías en Jekyll y Github sin plugins - Linea por Linea
 date: 2016-12-12 11:00:00
 comments: true
 categories: [development, desarrollo, github, jekyll]

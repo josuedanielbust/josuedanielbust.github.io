@@ -5,9 +5,251 @@
         <description>Web Developer &amp;amp; Young Entrepreneur by Passion - Coffee Lover - //Coderiser - Maker networks - Medellín Director at @coderiseorg</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 12 Dec 2016 00:56:46 -0500</pubDate>
-        <lastBuildDate>Mon, 12 Dec 2016 00:56:46 -0500</lastBuildDate>
+        <pubDate>Mon, 12 Dec 2016 10:11:15 -0500</pubDate>
+        <lastBuildDate>Mon, 12 Dec 2016 10:11:15 -0500</lastBuildDate>
         <generator>Jekyll v3.3.1</generator>
+        
+            <item>
+                <title>Categorías en Jekyll y Github sin plugins - Linea por Linea</title>
+                <description>&lt;h3 id=&quot;configyml&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Collections&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Creating the_categories collection and set the output key&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# to true allowing Jekyll to generate files .html for each file&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# in _the_categories folder on the permalink destination folder&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;collections&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;the_categories&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;permalink&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/blog/category/:name/&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Defaults&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Setting the default layout value with the layout of the 5&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# step generated on all the project for the_categories&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# type (collection type)&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;defaults&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;scope&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;“”&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;the_categories&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;category_list&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;thecategoriesfilenamemd&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_the_categories/&amp;lt;filename&amp;gt;.md&lt;/code&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;# Setting the slug that is used for jekyll and the&lt;/span&gt;
+&lt;span class=&quot;gh&quot;&gt;# name that we show to the user on the blog
+---
+&lt;/span&gt;slug: development
+&lt;span class=&quot;gh&quot;&gt;name: Development
+---
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;posthtml&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;post.html&lt;/code&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Save all the block on the categories_content var --&amp;gt;&lt;/span&gt;
+{% capture categories_content %}
+    &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Walking through each item on page.categories (categories specified on each post) and site.the_categories (collection) --&amp;gt;&lt;/span&gt;
+    {% for pcategory in page.categories %}
+        {% for scategory in site.the_categories %}
+            &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Only if the category is present on the post header is generated the html with the collection category info --&amp;gt;&lt;/span&gt;
+            {% if pcategory == scategory.slug %}
+                &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&amp;gt;&lt;/span&gt;
+                    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;“label”&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;“{{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;scategory&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;}}”&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ scategory.name }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+                &lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endcapture %}
+
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Showing to the user the block generated and saved on categories_content var --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;“post-categories”&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Posted in {{ categories_content }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;categorylist&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;category_list&lt;/code&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Set the layout as default layout (You can use your custom layout) --&amp;gt;&lt;/span&gt;
+---
+layout: default
+---
+
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- If site.categories has info or posts about the current page (page.slug) show info else show and error --&amp;gt;&lt;/span&gt;
+{% if site.categories[page.slug] %}
+    &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Get the posts or info from site.categories thata have the actual category based on the slug of the page --&amp;gt;&lt;/span&gt;
+    {% for post in site.categories[page.slug] %}
+        &lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt;!— Your themeplate for the post loop goes here —&amp;gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;“post-title”&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;“{{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;prepend:&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;baseurl&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;}}”&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ post.title }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    {% endfor %}
+{% else %}
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;There are no posts in this category.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+{% endif %}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+                <pubDate>Mon, 12 Dec 2016 06:00:00 -0500</pubDate>
+                <link>http://localhost:4000/blog/2016-12/categorias-jekyll-github-sin-plugins-linea-por-linea.html</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/2016-12/categorias-jekyll-github-sin-plugins-linea-por-linea.html</guid>
+                
+                
+                    <category>development</category>
+                
+                    <category>desarrollo</category>
+                
+                    <category>github</category>
+                
+                    <category>jekyll</category>
+                
+            </item>
+        
+            <item>
+                <title>Categorías en Jekyll y Github sin plugins</title>
+                <description>&lt;p&gt;Hace unos meses atrás quise incluir las categorías en mi blog para organizar los temas y los posts. Me imagino que ya sabes que desde el núcleo de &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; tenemos una integración de Categorías y Etiquetas muy básica en la cual hace falta la vista y el controlador de estas.&lt;/p&gt;
+
+&lt;p&gt;Para lograr hacer la integración de las categorías toca recurrir a plugins o a otras formas pero el problema se presenta cuando te ves limitado a que &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt; tiene un lista de plugins para &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; permitidos por default.&lt;/p&gt;
+
+&lt;p&gt;Intentando hacerlo la primera vez y sin saber esto de la lista blanca de plugins lo logre implementar localmente con un &lt;a href=&quot;https://github.com/recurser/jekyll-plugins&quot;&gt;plugin que fácilmente encontré en Github&lt;/a&gt; pero me encontré con el problema cuando hice el &lt;code class=&quot;highlighter-rouge&quot;&gt;git push&lt;/code&gt; que no cargaba en realidad nada y es en la búsqueda de la solución a esta que me encontré con la &lt;a href=&quot;https://pages.github.com/versions/&quot;&gt;lista blanca o de dependencias&lt;/a&gt; de Jekyll en Github.&lt;/p&gt;
+
+&lt;p&gt;Ahora en mi segunda vez tratando de lograr el objetivo de integrar las Categorías en mi blog me encontré con un &lt;a href=&quot;http://www.minddust.com/post/alternative-tags-and-categories-on-github-pages/&quot;&gt;post en el blog de minddust&lt;/a&gt; que tiene una muy buena integración si solo vas a usar una Categoría para cada post pero cuando piensas usar más de una Categoría se queda corto.&lt;/p&gt;
+
+&lt;p&gt;La diferencia entre usar una o multiples categorías se encuentra en el uso de la llave que se quiera usar en los posts.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;category&lt;/code&gt; la forma singular de la palabra categoría, genera un string del valor.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;# Single category
+---
+&lt;/span&gt;title: “Categorías en Jekyll y Github sin plugins”
+date: 2016-12-12 11:00:00
+&lt;span class=&quot;gh&quot;&gt;category: &quot;development&quot;
+---
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;categories&lt;/code&gt; la forma plural de la palabra categoría, genera un array de strings de los valores&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;# Multiples categories
+---
+&lt;/span&gt;title: “Categorías en Jekyll y Github sin plugins”
+date: 2016-12-12 11:00:00
+&lt;span class=&quot;gh&quot;&gt;categories: [development, github, jekyll]
+---
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Para esta integración usaremos los conceptos de &lt;a href=&quot;https://jekyllrb.com/docs/collections/&quot;&gt;colecciones de Jekyll&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Editaremos el archivo &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Collections&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;collections&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;the_categories&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;permalink&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/blog/category/:name/&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Defaults&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;defaults&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;scope&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;the_categories&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;category_list&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Crearemos en el root la carpeta &lt;code class=&quot;highlighter-rouge&quot;&gt;_the_categories&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Para cada nueva categoría que se quiera generar hay que crear un archivo markdown en la carpeta que recien creamos
+(El nombre de archivo debe coincidir con la llave slug del archivo)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;slug&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;development&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Development&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Añadiremos un poco de lógica a nuestro layout &lt;code class=&quot;highlighter-rouge&quot;&gt;post.html&lt;/code&gt; para agregar las etiquetas a nuestro post&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+{% capture categories_content %}
+    {% for pcategory in page.categories %}
+        {% for scategory in site.the_categories %}
+            {% if pcategory == scategory.slug %}
+                &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;label&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ scategory.url }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ scategory.name }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endcapture %}
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;post-categories&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Posted in {{ categories_content }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Añadiremos un nuevo layout &lt;code class=&quot;highlighter-rouge&quot;&gt;category_list&lt;/code&gt; para generar una página para cada categoría con sus posts&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+---
+layout: default
+---
+{% if site.categories[page.slug] %}
+    {% for post in site.categories[page.slug] %}
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;post-title&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ post.url | prepend: site.baseurl }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ post.title }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Your themeplate for the post loop goes here --&amp;gt;&lt;/span&gt;
+    {% endfor %}
+{% else %}
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;There are no posts in this category.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+{% endif %}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Con esto ya tendremos nuestras categorías agregadas a nuestro blog en Jekyll.&lt;/p&gt;
+
+&lt;p&gt;Si quieres conocer sobre la lógica y el porque de cada linea de código agregada te invito a ver la &lt;a href=&quot;http://josuedanielbust.com/blog/2016-12/categorias-jekyll-github-sin-plugins.html&quot;&gt;continuación&lt;/a&gt; de este post.&lt;/p&gt;
+</description>
+                <pubDate>Mon, 12 Dec 2016 05:30:00 -0500</pubDate>
+                <link>http://localhost:4000/blog/2016-12/categorias-jekyll-github-sin-plugins.html</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/2016-12/categorias-jekyll-github-sin-plugins.html</guid>
+                
+                
+                    <category>development</category>
+                
+                    <category>desarrollo</category>
+                
+                    <category>github</category>
+                
+                    <category>jekyll</category>
+                
+            </item>
         
             <item>
                 <title>Lenguajes de la Universidad</title>

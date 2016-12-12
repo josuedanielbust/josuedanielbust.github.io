@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “Categorías en Jekyll y Github sin plugins”
+title: Categorías en Jekyll y Github sin plugins
 date: 2016-12-12 10:30:00
 comments: true
 categories: [development, desarrollo, github, jekyll]
