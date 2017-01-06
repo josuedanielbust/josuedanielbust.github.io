@@ -1,0 +1,25 @@
+---
+title: Viajes en Multiverso
+name: Viajes en Multiverso
+layout: multiverse
+quote: Un viaje de mil millas comienza con el primer paso
+qauthor: Lao-Tsé
+---
+
+<section id="main" class="container">
+    <div class="row">
+        {% for cap in site.multiverse %}
+        <div class="6u 12u(narrower)">
+            <section class="box special">
+                <h3><a href="{{ cap.url | prepend: site.baseurl }}">{{ cap.title }}</a></h3>
+                <p>{{ cap.excerpt | strip_html | truncatewords:27 }}</p>
+                <!--
+                <ul class="actions">
+                    <li><a href="{{ cap.url | prepend: site.baseurl }}" class="button alt">Leer capítulo</a></li>
+                </ul>
+                -->
+            </section>
+        </div>
+        {% endfor %}
+    </div>
+</section>

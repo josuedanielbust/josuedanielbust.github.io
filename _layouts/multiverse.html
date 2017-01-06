@@ -1,0 +1,64 @@
+---
+title: Viajes en Multiverso
+---
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="{{ "/js/ie/html5shiv.js" | prepend: site.baseurl }}"></script><![endif]-->
+        <link rel="stylesheet" href="{{ "/css/multiverse_main.css" | prepend: site.baseurl }}" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="{{ "/css/ie8.css" | prepend: site.baseurl }}" /><![endif]-->
+    </head>
+    <body class="landing">
+        <div id="page-wrapper">
+
+            <!-- Header -->
+            <header id="header" class="alt">
+                <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">Capítulos</a></li>
+                        <li><a href="{{ site.baseurl }}">Acerca de mi</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- End Header -->
+
+            <!-- Banner -->
+            <section id="banner">
+                {% if page.part %}
+                <h1>{{ page.name }}</h1>
+                {% else %}
+                <h1>Viajes en Multiverso</h1>
+                {% endif %}
+
+                {% if page.quote %}
+                <p>"{{ page.quote }}" – {{ page.qauthor }}</p>
+                {% else %}
+                <p>{{ page.part }}</p>
+                {% endif %}
+            </section>
+            <!-- End Banner -->
+
+            <!-- Content -->
+            {{ content }}
+            <!-- End Content -->
+
+            <!-- Footer -->
+            <footer id="footer">
+                <ul class="copyright">
+                    <li>&copy; <a href="http://josuedanielbust.com">Josue Daniel Bustamante</a>. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </footer>
+            <!-- End Footer -->
+        </div>
+
+        <!-- Scripts -->
+        <script src="{{ "/js/jquery-1.10.2.min.js" | prepend: site.baseurl }}"></script>
+        <script src="{{ "/js/skel.min.js" | prepend: site.baseurl }}"></script>
+        <!--[if lte IE 8]><script src="{{ "/js/ie/respond.min.js" | prepend: site.baseurl }}"></script><![endif]-->
+        <script src="{{ "/js/multiverse_main.js" | prepend: site.baseurl }}"></script>
+    </body>
+</html>
