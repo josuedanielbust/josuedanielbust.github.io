@@ -29,6 +29,9 @@ collections:
   my_categories:
     output: true
     permalink: /blog/category/:name/
+  multiverse:
+    output: true
+    permalink: /multiverse/:slug.html
 
 # Defaults values
 defaults:
@@ -50,3 +53,9 @@ defaults:
       type: my_categories
     values:
       layout: category_list
+  -
+    scope:
+      path: ""
+      type: multiverse
+    values:
+      layout: multiverse_chapter

@@ -3,5 +3,7 @@ new/
 */*.*~
 .DS_Store
 */.DS_Store
+.Thumb
+*/.Thumb
 *~
 */*~
