@@ -239,6 +239,7 @@ a:link, a:hover, a:visited {
     background-position: center !important;
     background-size: cover;
     color:#ffffff;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5)
 }
 #slide5 h1 {
     font-size: 3.8em;
@@ -252,7 +253,8 @@ a:link, a:hover, a:visited {
     padding-bottom:20px;
     font-weight: 400;
 }
-#slide5 h2 a { font-weight: bold; }
+#slide5 h2 a { color: #ffffff; transition: 0.5s; }
+#slide5 h2 a:hover { color: #009eff; }
 
 /* Tablet */
 @media screen and (max-width: 1024px) {
@@ -288,8 +290,8 @@ a:link, a:hover, a:visited {
 }
 
 /* Footer Social Media */
-.icons a { display: inline-block; margin: 0 10px; vertical-align: middle; -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; }
-.icons a:hover { color: #ffffff; }
+.icons a { color: #ffffff; display: inline-block; margin: 0 10px; vertical-align: middle; -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; }
+.icons a:hover { color: #009eff; }
 
 /* General Style */
 .separator { border: 1px #ffffff solid; }
