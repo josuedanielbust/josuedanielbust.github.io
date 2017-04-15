@@ -4,27 +4,31 @@
 		"where": "Universidad EAFIT",
 		"place": "Medellín, Colombia",
 		"date": "2015 - Actualidad",
-		"image": "eafit.png"
+		"image": "eafit.png",
+		"position": "0% 100%"
 	},
 	{
 		"what": "Estudiante, Software Web Developer",
 		"where": "Coderise",
 		"place": "Medellín, Colombia",
 		"date": "2012 - 2012",
-		"image": "coderise.png"
+		"image": "coderise.png",
+		"position": "50% 80%"
 	},
 	{
 		"what": "Emprendedor, Bussines",
 		"where": "Startups Academy",
 		"place": "Medellín, Colombia",
 		"date": "2014 - 2014",
-		"image": "startupsacademy.png"
+		"image": "startupsacademy.png",
+		"position": "100% 80%"
 	},
 	{
 		"what": "Estudiante, Bachiller",
 		"where": "Colegio Panamericano Colombo Sueco",
 		"place": "Medellín, Colombia",
 		"date": "2001 - 2014",
-		"image": "colombosueco.png"
+		"image": "colombosueco.png",
+		"position": "0% 80%"
 	}
 ]

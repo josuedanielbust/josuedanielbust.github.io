@@ -4,83 +4,95 @@
 		"where": "Coderise",
 		"place": "Medellín, Colombia",
 		"date": "Noviembre 2013, Actualidad",
-		"image": "coderise.png"
+		"image": "coderise.png",
+		"position": "50% 80%"
 	},
 	{
 		"what": "CTO",
 		"where": "BlindCoffee",
 		"place": "Medellín, Colombia",
 		"date": "Agosto 2015 - Actualidad",
-		"image": "blindcoffee.png"
+		"image": "blindcoffee.png",
+		"position": "0 0"
 	},
 	{
 		"what": "Practicante",
 		"where": "Socialatom Group",
 		"place": "Medellín, Colombia",
 		"date": "Febrero 2014 - Junio 2015 (4 meses)",
-		"image": "socialatom.png"
+		"image": "socialatom.png",
+		"position": "50% 60%"
 	},
 	{
 		"what": "CEO",
 		"where": "Bustlabs",
 		"place": "Medellín, Colombia",
 		"date": "Febrero 2014 - Actualidad",
-		"image": ""
+		"image": "",
+		"position": "100% 60%"
 	},
 	{
 		"what": "CEO",
 		"where": "NoBullyingCO",
 		"place": "Medellín, Colombia",
 		"date": "Agosto 2013 - Actualidad",
-		"image": "nobullying.png"
+		"image": "nobullying.png",
+		"position": "100% 20%"
 	},
 	{
 		"what": "Consultor",
 		"where": "MortgageHippo",
 		"place": "Medellín, Colombia",
 		"date": "Mayo 2014 - Septiembre 2014 (5 meses)",
-		"image": "mortgagehippo.png"
+		"image": "mortgagehippo.png",
+		"position": "0 20%"
 	},
 	{
 		"what": "Consultor Técnico",
 		"where": "Mostach Studio",
 		"place": "Medellín, Colombia",
 		"date": "Noviembre 2014 - Actualidad",
-		"image": "mostach.png"
+		"image": "mostach.png",
+		"position": "50% 20%"
 	},
 	{
 		"what": "Gestor de Innovación",
 		"where": "RutaN Medellín",
 		"place": "Medellín, Colombia",
 		"date": "Mayo 2014 - Septiembre 2014 (5 meses)",
-		"image": "rutan.png"
+		"image": "rutan.png",
+		"position": "100% 40%"
 	},
 	{
 		"what": "Starter Lider",
 		"where": "Kairos Society",
 		"place": "Medellín, Colombia",
 		"date": "Noviembre 2013 - Septiembre 2014 (11 meses)",
-		"image": "kairos.png"
+		"image": "kairos.png",
+		"position": "100% 0"
 	},
 	{
 		"what": "CO-Founder",
 		"where": "ProgAndArt",
 		"place": "Medellín, Colombia",
 		"date": "Diciembre 2012 - Febrero 2014 (1 año 3 meses)",
-		"image": "progandart.png"
+		"image": "progandart.png",
+		"position": "50% 40%"
 	},
 	{
 		"what": "CO-Founder",
 		"where": "Team Creativity Express",
 		"place": "Medellín, Colombia",
 		"date": "Octubre 2009 - Diciembre 2012 (3 años 3 meses)",
-		"image": "creativityexpress2.png"
+		"image": "creativityexpress2.png",
+		"position": "50% 0%"
 	},
 	{
 		"what": "Founder",
 		"where": "Studios Graphic Stone",
 		"place": "Medellín, Colombia",
 		"date": "Octubre 2009 - Diciembre 2012 (3 años 3 meses)",
-		"image": "sgs.png"
+		"image": "sgs.png",
+		"position": "0 60%"
 	}
 ]
