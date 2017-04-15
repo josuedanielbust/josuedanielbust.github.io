@@ -407,6 +407,28 @@ h3 code {
 .highlighter-rouge pre code {
     background-color: #fff;
 }
+.error-page {
+    padding-top: 5rem;
+}
+.error-page h2 {
+    text-align: center;
+    font-size: 10rem;
+    line-height: 10rem;
+}
+.error-page p {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin: 0;
+}
+.error-page img {
+    width: 35%;
+    margin: 0 auto;
+    display: block;
+    -ms-transform: rotate(-18deg);
+    -webkit-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+}
 
 /* Bouncing Arrow */
 .arrow {
@@ -426,11 +448,9 @@ h3 code {
     -moz-animation-fill-mode:both;
     -ms-animation-fill-mode:both;
     -o-animation-fill-mode:both;
-
     animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
-
     animation-fill-mode:both;
     -webkit-animation-duration:2s;
     -moz-animation-duration:2s;
@@ -438,19 +458,15 @@ h3 code {
     -o-animation-duration:2s;
     animation-duration:2s;
 }
-
-
 @-webkit-keyframes bounce {
     0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 40% {-webkit-transform: translateY(-30px);}
     60% {-webkit-transform: translateY(-15px);}
 }
-
 @-moz-keyframes bounce {
     0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
     40% {-moz-transform: translateY(-30px);}
     60% {-moz-transform: translateY(-15px);}
 }
-
 @-o-keyframes bounce {
     0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
     40% {-o-transform: translateY(-30px);}
