@@ -17,3 +17,14 @@
         </div>
     </div>
 </div>
+{% if page.image %}
+<svg class="triangle-cut" xmlns="http://www.w3.org/2000/svg" width="100%" height="50" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path class="triangle" d="M0 100 L100 100 L100 0 Z"></path>
+    <path class="shadow" d="M0 100 L100 30 L100 0 Z"></path>
+</svg>
+{% else %}
+<svg class="triangle-down" xmlns="http://www.w3.org/2000/svg" width="100%" height="70" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path class="triangle" d="M0 0 L50 100 L100 0 Z"></path>
+    <path class="shadow" d="M50 100 L100 40 L100 2 Z"></path>
+</svg>
+{% endif %}
