@@ -1,5 +1,13 @@
 [
 	{
+		"what": "Web Developer",
+		"where": "Advice Interactive",
+		"place": "Medellín, Colombia (Remote)",
+		"date": "Marzo 2017 - Agosto 2017 (5 meses)",
+		"image": "advice.png",
+		"position": "100% 60%"
+	},
+	{
 		"what": "Medellín Director",
 		"where": "Coderise",
 		"place": "Medellín, Colombia",
@@ -42,7 +50,7 @@
 	{
 		"what": "Consultor",
 		"where": "MortgageHippo",
-		"place": "Medellín, Colombia",
+		"place": "Medellín, Colombia (Remote)",
 		"date": "Mayo 2014 - Septiembre 2014 (5 meses)",
 		"image": "mortgagehippo.png",
 		"position": "0 20%"
@@ -50,7 +58,7 @@
 	{
 		"what": "Consultor Técnico",
 		"where": "Mostach Studio",
-		"place": "Medellín, Colombia",
+		"place": "Medellín, Colombia (Remote)",
 		"date": "Noviembre 2014 - Actualidad",
 		"image": "mostach.png",
 		"position": "50% 20%"
@@ -82,7 +90,7 @@
 	{
 		"what": "CO-Founder",
 		"where": "Team Creativity Express",
-		"place": "Medellín, Colombia",
+		"place": "Medellín, Colombia (Remote)",
 		"date": "Octubre 2009 - Diciembre 2012 (3 años 3 meses)",
 		"image": "creativityexpress2.png",
 		"position": "50% 0%"
@@ -90,7 +98,7 @@
 	{
 		"what": "Founder",
 		"where": "Studios Graphic Stone",
-		"place": "Medellín, Colombia",
+		"place": "Medellín, Colombia (Remote)",
 		"date": "Octubre 2009 - Diciembre 2012 (3 años 3 meses)",
 		"image": "sgs.png",
 		"position": "0 60%"
