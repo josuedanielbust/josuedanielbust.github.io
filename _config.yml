@@ -21,6 +21,10 @@ lsi:         false
 excerpt_separator: "\n\n"
 incremental: false
 
+# Sass
+sass:
+  style: compressed
+
 # Collections
 collections:
   my_categories:
