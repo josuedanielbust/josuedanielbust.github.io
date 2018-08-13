@@ -1,0 +1,31 @@
+/*! Flexbox Grid System */
+/* Grid setup */
+$container-width: 1000;
+$columns: 12;
+$columns-padding: 2;
+
+.container {
+    width: 90%;
+    max-width: $container-width * 1px;
+    margin: 0 auto;
+    &-fluid {
+        margin: 0;
+        max-width: 100%;
+    }
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+@for $i from 1 through $columns {
+    .col-#{$i} {
+        flex-basis: ((100 / ($columns / $i)) - $columns-padding) * 1%;
+        padding: 0 (($columns-padding / 2) * 1%);
+    }
+}
+@media screen and (max-width: 480px) {
+    [class^="col"] {
+        flex-basis: 100%;
+    }
+}

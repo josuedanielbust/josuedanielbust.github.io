@@ -9,7 +9,7 @@ layout: default_post
     {% for pcategory in page.categories %}
         {% for scategory in site.my_categories %}
             {% if pcategory == scategory.slug %}
-                <span><a class="label" href="{{ scategory.url }}"><i class="fa fa-tags"></i> {{ scategory.name }}</a></span>
+                <span><a class="label" href="{{ scategory.url }}"><i class="fas fa-tag"></i> {{ scategory.name }}</a></span>
             {% endif %}
         {% endfor %}
     {% endfor %}

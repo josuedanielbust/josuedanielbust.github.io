@@ -1,37 +1,41 @@
-<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
-    <div class="container clearfix">
-        <div class="grid_12 cv-title center">
+<div class="slide" id="cv" data-slide="2" data-stellar-background-ratio="0.5">
+    <div class="container">
+        <div class="cv-title center">
             <p>Experiencia Laboral</p>
         </div>
         <div id="exp" class="list">
         {% for exp in site.data.exp %}
-            <div class="grid_2">
-                <div class="cv-job">
-                    <div class="cv-image" style='background-position: {{ exp.position }};'></div>
+            <div class="row">
+                <div class="col-2">
+                    <div class="cv-job">
+                        <div class="cv-image" style='background-position: {{ exp.position }};'></div>
+                    </div>
                 </div>
-            </div>
-            <div class="grid_10 omega">
-                <div class="cv-job">
-                    <p class="cv-position">{{ exp.what }}<span> en {{ exp.where }}</span></p>
-                    <p><span class="cv-place">{{ exp.place }}</span> - <span class="cv-date">{{ exp.date }}</span></p>
+                <div class="col-10">
+                    <div class="cv-job">
+                        <p class="cv-position">{{ exp.what }}<span> en {{ exp.where }}</span></p>
+                        <p><span class="cv-place">{{ exp.place }}</span> - <span class="cv-date">{{ exp.date }}</span></p>
+                    </div>
                 </div>
             </div>
         {% endfor %}
         </div>
-        <div class="grid_12 cv-title center">
+        <div class="cv-title center">
             <p>Estudios</p>
         </div>
         <div id="est" class="list">
         {% for est in site.data.est %}
-            <div class="grid_2">
-                <div class="cv-job">
-                    <div class="cv-image" style='background-position: {{ est.position }};'></div>
+            <div class="row">
+                <div class="col-2">
+                    <div class="cv-job">
+                        <div class="cv-image" style='background-position: {{ est.position }};'></div>
+                    </div>
                 </div>
-            </div>
-            <div class="grid_10 omega">
-                <div class="cv-job">
-                    <p class="cv-position">{{ est.what }}<span> en {{ est.where }}</span></p>
-                    <p><span class="cv-place">{{ est.place }}</span> - <span class="cv-date">{{ est.date }}</span></p>
+                <div class="col-10">
+                    <div class="cv-job">
+                        <p class="cv-position">{{ est.what }}<span> en {{ est.where }}</span></p>
+                        <p><span class="cv-place">{{ est.place }}</span> - <span class="cv-date">{{ est.date }}</span></p>
+                    </div>
                 </div>
             </div>
         {% endfor %}   

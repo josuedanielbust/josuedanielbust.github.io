@@ -1,0 +1,32 @@
+svg{
+    &.triangle {
+        &-down {
+            top: -1px;
+        }
+        &-up {
+            margin-top: 3rem;
+            bottom: -10px;
+        }
+        &-up, &-down {
+            fill: rgba(237,237,237,1);
+            stroke: rgba(237,237,237,1);
+            position: relative;
+            z-index: 1;
+            .shadow {
+                fill: rgba(153,153,153,1);
+                stroke: rgba(153,153,153,1);
+            }
+        }
+        &-cut {
+            fill: rgba(255,255,255,1);
+            stroke: rgba(255,255,255,1);
+            position: relative;
+            top: -50px;
+            z-index: 1;
+            .shadow {
+                fill: rgba(237,237,237,1);
+                stroke: rgba(237,237,237,1);
+            }
+        }
+    }
+}

@@ -1,52 +1,79 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
 
+@import "normalize", "grid", "fonts";
 
-
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
+body {
+    font-family: 'lato';
+    font-size: 16px;
+    color: #8a8683;
+    background-color:#ffffff;
+}
+img {
+    max-width: 100%;
+}
+a {
+    &:link, &:hover, &:visited {
+        color: #009eff;
+        text-decoration: none;
+    }
+}
+hr {
+    background-color: #ccc;
+    border: 0px;
+    height: 1px;
+    margin: 4rem 4rem;
+}
+code {
+    font-size: 0.9rem;
+    display: block;
+    overflow: auto;
+}
+h3 code {
+    font-size: 1.2rem
+}
+blockquote {
+    text-align: center;
+}
+.highlighter-rouge {
+    pre {
+        font-size: 0.8rem;
+        margin: 1rem 2rem;
+        code {
+            background-color: #fff;
+        }
+    }
+}
+.separator {
+    border: 1px #ffffff solid;
+}
+.center {
+    text-align: center;
+}
+.me {
+    border-radius: 180px 180px 180px 0px;
+    border: 3px solid #009eff;
+    float: right;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-left: 1em;
+}
+.icons {
+    a {
+        font-size: 1.3rem;
+        color: #aaa;
+        display: inline-block;
+        margin: 0 0.3rem;
+        vertical-align: middle;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        &:hover {
+            color: #009eff;
+        }
     }
 }
 
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+@import "nav", "slides", "svg", "blog", "error", "queries";

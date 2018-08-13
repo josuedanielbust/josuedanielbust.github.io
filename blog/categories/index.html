@@ -3,10 +3,10 @@ layout: default
 title: Categorías
 ---
 
-<div id="categories">
+<div id="categories" class="row">
     {% for scategory in site.my_categories %}
-        <div class="archive-group grid_3">
-            <a class="label" href="{{ scategory.url }}"><i class="fa fa-tags"></i> {{ scategory.name }}</a>
+        <div class="archive-group col-3">
+            <a class="label" href="{{ scategory.url }}"><i class="fas fa-tag"></i> {{ scategory.name }}</a>
         </div>
     {% endfor %}
 </div>
