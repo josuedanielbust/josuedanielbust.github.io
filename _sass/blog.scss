@@ -114,3 +114,10 @@ ul.post-list {
         }
     }
 }
+p {
+    code {
+        &.language-plaintext {
+            display: inline;
+        }
+    }
+}
