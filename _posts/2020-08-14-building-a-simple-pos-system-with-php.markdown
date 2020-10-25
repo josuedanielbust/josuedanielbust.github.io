@@ -7,7 +7,7 @@ categories: [development, desarrollo, php]
 image: /images/posts/building-a-simple-pos-system-with-php.jpg
 ---
 
-On this post I'm gonna show you how I make a Simple POS System with PHP and JS, if you want to see al the project completed or just get the code, you can find it on [this GitHub repository][repo] (Just click the link).
+On this post I'm gonna show you how I make a Simple POS System with PHP and JS, if you want to see all the project completed or just get the code, you can find it on [this GitHub repository][repo] (Just click the link).
 
 ## Requirements
 - A server that support PHP, If you want to try this on your local machine, I recommend to use [MAMP for Mac](https://www.mamp.info/en/mac/), [MAMP for Windows](https://www.mamp.info/en/windows/) or [XAMPP for Linux](https://www.apachefriends.org/download.html) (XAMPP is also available for Mac and Windows users).
