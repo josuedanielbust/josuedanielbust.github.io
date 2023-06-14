@@ -6,17 +6,17 @@ layout: default_post
 
 <!-- Categories -->
 {% capture categories_content %}
-    {% for pcategory in page.categories %}
-        {% for scategory in site.my_categories %}
-            {% if pcategory == scategory.slug %}
-                <span><a class="label" href="{{ scategory.url }}"><i class="fas fa-tag"></i> {{ scategory.name }}</a></span>
-            {% endif %}
-        {% endfor %}
+  {% for pcategory in page.categories %}
+    {% for scategory in site.my_categories %}
+      {% if pcategory == scategory.slug %}
+        <span><a class="label" href="{{ scategory.url }}"><i class="fas fa-tag"></i> {{ scategory.name }}</a></span>
+      {% endif %}
     {% endfor %}
+  {% endfor %}
 {% endcapture %}
 
 <div class="post-categories">
-    <p>Posted in</p>
-    <p>{{ categories_content }}</p>
+  <p>Posted in</p>
+  <p>{{ categories_content }}</p>
 </div>
 <!-- End Categories -->

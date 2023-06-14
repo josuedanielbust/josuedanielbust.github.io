@@ -1,97 +1,104 @@
 .slide {
-    background-attachment: fixed;
-    width: 100%;
-    height: auto;
-    position: relative;
-    padding: 4rem 0;
-    h1 {
-        font-family: 'lato';
-    }
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 4rem 0;
+  h1 {
+    font-family: 'lato';
+  }
 }
 
 #slide1 {
-    background-color: #ededed;
-    background-size: cover;
-    color: #999;
-    padding: 3rem 0 2rem;
-    h1 {
-        font-size: 3.5em;
-        margin: 2rem 10px 0;
+  background-color: $gray-4;
+  background-size: cover;
+  color: $text-color;
+  padding: 3rem 0 2rem;
+  h1 {
+    font-size: 3.5em;
+    margin: 2rem 10px 0;
+  }
+  h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0 10px;
+  }
+  p {
+    margin: 0 10px;
+    &:first-of-type {
+      margin-top: 1rem;
     }
-    h2 {
-        font-size: 1.2em;
-        font-weight: 400;
-        margin: 0 10px;
-    }
-    img {
-        width: 35%;
-        margin: 0 auto;
-        display: block;
-        -ms-transform: rotate(-18deg);
-        -webkit-transform: rotate(-18deg);
-        transform: rotate(-18deg);
-    }
+  }
+  img {
+    width: 35%;
+    margin: 0 auto;
+    display: block;
+    -ms-transform: rotate(-18deg);
+    -webkit-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+  }
 }
 
 #cv {
-    background-color: #ffffff;
-    padding: 0 0 3rem;
-    .separator {
-        border-color: #8a8683;
-        width: 80%;
+  background-color: $white;
+  padding: 0;
+  margin-bottom: -3rem;
+  .separator {
+    border-color: $gray-1;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .cv-title {
+    font-size: 3.5rem;
+    font-family: 'lato';
+    margin: 2rem 0 1rem;
+    p {
+      margin: 0;
+    }
+  }
+  .list {
+    .cv-job {
+      padding: 0 1rem 1rem;
+      line-height: 1rem;
+      height: auto;
+      text-align: left;
+      p {
+        margin: 0.2rem;
+      }
+      .cv-image {
+        background-image: url('../images/jobs/Sprite2.png');
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: 300%;
+        display: block;
+        width: 100%;
+        height: 0;
         margin: 0 auto;
-    }
-    .cv-title {
-        font-size: 3.5rem;
-        font-family: 'lato';
-        margin: 2rem 0 1rem;
-        p {
-            margin: 0;
+        padding-bottom: 3rem;
+      }
+      .cv-position {
+        font-size: 1.5rem;
+        font-weight: 700;
+        padding: 0;
+        margin: 0 0 1rem;
+        line-height: 1.3rem;
+        span {
+          font-weight: 400;
         }
+      }
     }
-    .list {
-        .cv-job {
-            padding: 0 1rem 1rem;
-            line-height: 1rem;
-            height: auto;
-            text-align: left;
-            p {
-                margin: 0.2rem;
-            }
-            .cv-image {
-                background-image: url('../images/jobs/Sprite2.png');
-                background-repeat: no-repeat;
-                background-position: 0 0;
-                background-size: 300%;
-                display: block;
-                width: 100%;
-                height: 0;
-                margin: 0 auto;
-                padding-bottom: 3rem;
-            }
-            .cv-position {
-                font-size: 1.5rem;
-                font-weight: 700;
-                padding: 0;
-                margin: 0 0 1rem;
-                line-height: 1.3rem;
-                span {
-                    font-weight: 400;
-                }
-            }
-        }
-    }
+  }
 }
 
 footer {
-    background-color: #ededed;
-    color: #999;
-    padding: 2rem 0 2.5rem;
-    p {
-        padding: 0;
-        margin: 0;
-    }
-    .icons {
-        text-align: right;
-    }
+  background-color: $gray-4;
+  color: $text-color;
+  padding: 2rem 0 2.5rem;
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  .icons {
+    text-align: right;
+  }
 }

@@ -1,34 +1,34 @@
 <div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
-    <div class="container clearfix">
-        <div class="grid_12 cv-title center">
-            <p>Experiencia Laboral</p>
-        </div>
-        <div id="exp" class="grid">
-        {% for exp in site.data.exp %}
-            <div class="grid_4">
-                <div class="cv-job">
-                    <div class="cv-image" style='background-position: {{ exp.position }};'></div>
-                    <p class="cv-position">{{ exp.what }}<span> en <br>{{ exp.where }}</span></p>
-                    <p class="cv-place">{{ exp.place }}</p>
-                    <p class="cv-date">{{ exp.date }}</p>
-                </div>
-            </div>
-        {% endfor %}
-        </div>
-        <div class="grid_12 cv-title center">
-            <p>Estudios</p>
-        </div>
-        <div id="est" class="grid">
-        {% for est in site.data.est %}
-            <div class="grid_4">
-                <div class="cv-job">
-                    <div class="cv-image" style='background-position: {{ est.position }};'></div>
-                    <p class="cv-position">{{ est.what }}<span> en <br>{{ est.where }}</span></p>
-                    <p class="cv-place">{{ est.place }}</p>
-                    <p class="cv-date">{{ est.date }}</p>
-                </div>
-            </div>
-        {% endfor %}   
-        </div>
+  <div class="container clearfix">
+    <div class="grid_12 cv-title center">
+      <p>Experiencia Laboral</p>
     </div>
+    <div id="exp" class="grid">
+      {% for exp in site.data.exp %}
+        <div class="grid_4">
+          <div class="cv-job">
+            <div class="cv-image" style='background-position: {{ exp.position }};'></div>
+            <p class="cv-position">{{ exp.what }}<span> en <br>{{ exp.where }}</span></p>
+            <p class="cv-place">{{ exp.place }}</p>
+            <p class="cv-date">{{ exp.date }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="grid_12 cv-title center">
+      <p>Estudios</p>
+    </div>
+    <div id="est" class="grid">
+      {% for est in site.data.est %}
+        <div class="grid_4">
+          <div class="cv-job">
+            <div class="cv-image" style='background-position: {{ est.position }};'></div>
+            <p class="cv-position">{{ est.what }}<span> en <br>{{ est.where }}</span></p>
+            <p class="cv-place">{{ est.place }}</p>
+            <p class="cv-date">{{ est.date }}</p>
+          </div>
+        </div>
+      {% endfor %}   
+    </div>
+  </div>
 </div>

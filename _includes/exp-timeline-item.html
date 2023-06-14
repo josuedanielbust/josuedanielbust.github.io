@@ -1,0 +1,33 @@
+<div class="experience">
+  <h3>{{ include.title }}</h3>
+  <ul>
+    {% assign counter = 0 %}
+    {% for item in include.items %}
+      <li class="experience collapsable{% cycle '', ' reverse' %}">
+        <div class="experience-details">
+          <div class="experience-details-content">
+            <p class="experience-details-content-title">{{ item.what }}</p>
+            <p>{{ item.where }}</p>
+            <p>
+              <span>{{ item.date[0] | date: "%b %Y" }}</span>
+              <span> – </span>
+              {% if item.date[1] %}
+                <span>{{ item.date[1] | date: "%b %Y" }}</span>
+              {% else %}
+                <span>Present</span>
+              {% endif %}
+            </p>
+            {% if item.content %}
+              <p class="experience-details-content-collapse" onclick="toggleInfo(this)">+</p>
+              <div class="experience-details-content-description">
+                {% for text in item.content %}
+                  <p>{{ text }}</p>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

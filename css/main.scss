@@ -1,25 +1,25 @@
 ---
 ---
 
-@import "normalize", "grid", "fonts";
+@import 'colors', 'normalize', 'grid', 'fonts';
 
 body {
     font-family: 'lato';
     font-size: 16px;
-    color: #8a8683;
-    background-color:#ffffff;
+    color: $gray-1;
+    background-color: $white;
 }
 img {
     max-width: 100%;
 }
 a {
     &:link, &:hover, &:visited {
-        color: #009eff;
+        color: $blue-1;
         text-decoration: none;
     }
 }
 hr {
-    background-color: #ccc;
+    background-color: $gray-3;
     border: 0px;
     height: 1px;
     margin: 4rem 4rem;
@@ -40,19 +40,19 @@ blockquote {
         font-size: 0.8rem;
         margin: 1rem 2rem;
         code {
-            background-color: #fff;
+            background-color: $white;
         }
     }
 }
 .separator {
-    border: 1px #ffffff solid;
+    border: 1px $white solid;
 }
 .center {
     text-align: center;
 }
 .me {
     border-radius: 180px 180px 180px 0px;
-    border: 3px solid #009eff;
+    border: 3px solid $blue-1;
     float: right;
     position: relative;
     width: 300px;
@@ -62,7 +62,7 @@ blockquote {
 .icons {
     a {
         font-size: 1.3rem;
-        color: #aaa;
+        color: $gray-2;
         display: inline-block;
         margin: 0 0.3rem;
         vertical-align: middle;
@@ -71,9 +71,9 @@ blockquote {
         -moz-transition: all 0.3s;
         -webkit-transition: all 0.3s;
         &:hover {
-            color: #009eff;
+            color: $blue-1;
         }
     }
 }
 
-@import "nav", "slides", "svg", "blog", "error", "syntax-highlighting", "queries";
+@import 'nav', 'slides', 'svg', 'experience', 'blog', 'error', 'syntax-highlighting';

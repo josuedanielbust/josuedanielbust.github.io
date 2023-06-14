@@ -1,11 +1,18 @@
 # Site settings
-title: JosueDanielBust - Blog
-email: josuedanielbustamante@gmail.com
-description: Coffee &amp; Wine Lover - Web Developer &amp; Young Entrepreneur by Passion
+title: Josue Daniel Bustamante
+email: me@josuedanielbust.com
+description: Developer by Passion - Wine &amp; Coffee Lover
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://josuedanielbust.com" # the base hostname & protocol for your site
 twitter_username: JosueDanielBust
 github_username:  JosueDanielBust
+
+# Social links
+github: https://github.com/josuedanielbust
+twitter: https://twitter.com/josuedanielbust
+linkedin: https://linkedin.com/in/josuedanielbust
+facebook: https://facebook.com/josuedanielbust
+instagram: https://instagram.com/josuedanielbust
 
 # Build settings
 markdown: kramdown

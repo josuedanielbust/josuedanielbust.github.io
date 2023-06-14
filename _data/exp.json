@@ -1,106 +1,137 @@
 [
-	{
-		"what": "Web Developer",
-		"where": "Advice Interactive",
-		"place": "Medellín, Colombia (Remote)",
-		"date": "Marzo 2017 - Agosto 2017 (5 meses)",
-		"image": "advice.png",
-		"position": "100% 60%"
-	},
-	{
-		"what": "Medellín Director",
-		"where": "Coderise",
-		"place": "Medellín, Colombia",
-		"date": "Noviembre 2013, Actualidad",
-		"image": "coderise.png",
-		"position": "50% 80%"
-	},
-	{
-		"what": "CTO",
-		"where": "BlindCoffee",
-		"place": "Medellín, Colombia",
-		"date": "Agosto 2015 - Actualidad",
-		"image": "blindcoffee.png",
-		"position": "0 0"
-	},
-	{
-		"what": "Practicante",
-		"where": "Socialatom Group",
-		"place": "Medellín, Colombia",
-		"date": "Febrero 2015 - Junio 2015 (4 meses)",
-		"image": "socialatom.png",
-		"position": "50% 60%"
-	},
-	{
-		"what": "CEO",
-		"where": "Bustlabs",
-		"place": "Medellín, Colombia",
-		"date": "Febrero 2014 - Actualidad",
-		"image": "",
-		"position": "100% 60%"
-	},
-	{
-		"what": "CEO",
-		"where": "NoBullyingCO",
-		"place": "Medellín, Colombia",
-		"date": "Agosto 2013 - Actualidad",
-		"image": "nobullying.png",
-		"position": "100% 20%"
-	},
-	{
-		"what": "Consultor",
-		"where": "MortgageHippo",
-		"place": "Medellín, Colombia (Remote)",
-		"date": "Mayo 2014 - Septiembre 2014 (5 meses)",
-		"image": "mortgagehippo.png",
-		"position": "0 20%"
-	},
-	{
-		"what": "Consultor Técnico",
-		"where": "Mostach Studio",
-		"place": "Medellín, Colombia (Remote)",
-		"date": "Noviembre 2014 - Actualidad",
-		"image": "mostach.png",
-		"position": "50% 20%"
-	},
-	{
-		"what": "Gestor de Innovación",
-		"where": "RutaN Medellín",
-		"place": "Medellín, Colombia",
-		"date": "Mayo 2014 - Septiembre 2014 (5 meses)",
-		"image": "rutan.png",
-		"position": "100% 40%"
-	},
-	{
-		"what": "Starter Lider",
-		"where": "Kairos Society",
-		"place": "Medellín, Colombia",
-		"date": "Noviembre 2013 - Septiembre 2014 (11 meses)",
-		"image": "kairos.png",
-		"position": "100% 0"
-	},
-	{
-		"what": "CO-Founder",
-		"where": "ProgAndArt",
-		"place": "Medellín, Colombia",
-		"date": "Diciembre 2012 - Febrero 2014 (1 año 3 meses)",
-		"image": "progandart.png",
-		"position": "50% 40%"
-	},
-	{
-		"what": "CO-Founder",
-		"where": "Team Creativity Express",
-		"place": "Medellín, Colombia (Remote)",
-		"date": "Octubre 2009 - Diciembre 2012 (3 años 3 meses)",
-		"image": "creativityexpress2.png",
-		"position": "50% 0%"
-	},
-	{
-		"what": "Founder",
-		"where": "Studios Graphic Stone",
-		"place": "Medellín, Colombia (Remote)",
-		"date": "Octubre 2009 - Diciembre 2012 (3 años 3 meses)",
-		"image": "sgs.png",
-		"position": "0 60%"
-	}
+  {
+    "what": "Software Engineer",
+    "where": "Cocora.io",
+    "place": "Medellín, Colombia (Remote)",
+    "date": [
+      "2023-02-01",
+      "2023-03-01"
+    ],
+    "content": [
+      "• Create and design the services architecture for the web platform.",
+      "• Defining technologies, libraries, third party services and patterns to use on the services.",
+      "• Stripe integration.",
+      "Technologies: SQL • TypeScript • PostgreSQL • Amazon Web Services (AWS) • React.js • JavaScript • CSS • Node.js • JavaScript"
+    ]
+  },
+  {
+    "what": "Senior Software Engineer",
+    "where": "Bunny Studio",
+    "place": "Medellín, Colombia (Remote)",
+    "date": [
+      "2022-05-01",
+      "2022-12-31"
+    ],
+    "content": [
+      "• Development of Split payment flow, where the user can pay with multiple payment methods to increase the conversion and satisfaction of the clients.",
+      "• Serverless function to generate data exports files that clients can use to export their information. Reducing the friction with databases on production and the stability of the system.",
+      "• Debugging of payments flow to improve efficiency and security.",
+      "• Stripe integration.",
+      "Technologies: JavaScript • Node.js • PHP • SQL • CSS • AWS • Docker • Serverless • Stripe • ReactJS • Redux"
+    ]
+  },
+  {
+    "what": "Technical Consultant",
+    "where": "Apple Travel",
+    "place": "Medellín, Colombia (Remote)",
+    "date": [
+      "2021-07-01"
+    ],
+    "content": [
+      "• Technical support on office and web development.",
+      "Technologies: WordPress • Node.js • CSS • Network"
+    ]
+  },
+  {
+    "what": "Senior Developer",
+    "where": "Archuleta Group",
+    "place": "Medellín, Colombia (Remote)",
+    "date": [
+      "2020-01-01",
+      "2022-05-01"
+    ],
+    "content": [
+      "• More than 60 sites created for franchises puts the principal client/partner company on the Marketing Top 3 Top franchise suppliers by Entrepreneur.",
+      "Technologies: JavaScript • Node.js • PHP • WordPress • CSS"
+    ]
+  },
+  {
+    "what": "Web Developer",
+    "where": "Advice Local",
+    "place": "Medellín, Colombia (Remote)",
+    "date": [
+      "2018-03-01",
+      "2020-01-01"
+    ],
+    "content": [
+      "• More than 60 individual sites build for locations of a franchise in less than 1 year.",
+      "Technologies: JavaScript • PHP • WordPress • Node.js • CSS"
+    ]
+  },
+  {
+    "what": "Web Developer",
+    "where": "Advice Local",
+    "place": "Medellín, Colombia (Remote)",
+    "date": [
+      "2017-03-01",
+      "2017-08-01"
+    ],
+    "content": [
+      "• More than 120 sites hosted and maintained on the own servers of the company without major interruptions.",
+      "Technologies: JavaScript • PHP • WordPress • Node.js • CSS"
+    ]
+  },
+  {
+    "what": "Medellín Director",
+    "where": "Coderise",
+    "place": "Medellín, Colombia",
+    "date": [
+      "2014-01-01",
+      "2019-07-01"
+    ],
+    "content": [
+      "• 3 versions of the program/course graduated.",
+      "• More than 60 adolescents learned the basics of web programming."
+    ]
+  },
+  {
+    "what": "Co Founder and Technical Lead",
+    "where": "Blind Coffee",
+    "place": "Medellín, Colombia",
+    "date": [
+      "2015-08-01",
+      "2015-10-01"
+    ],
+    "content": [
+      "• Development of the MCV in less than 1 week.",
+      "• More than 150 persons reached and attended to the 6 events hosted on cafes around the city to know new people based on the form fills through the website.",
+      "Technologies: Node.js • PostgreSQL • JavaScript • CSS"
+    ]
+  },
+  {
+    "what": "Tech Hiring and Recruitment Intern",
+    "where": "Socialatom Group",
+    "place": "Medellín, Colombia",
+    "date": [
+      "2015-02-01",
+      "2015-07-01"
+    ],
+    "content": [
+      "• Mapping of top developers into the Medellín and Bogota areas to be hired as CTOs on the companies of the portfolio.",
+      "• 2 new CTOs hired from that mapping."
+    ]
+  },
+  {
+    "what": "Consultant",
+    "where": "MortgageHippo",
+    "place": "Medellín, Colombia (Remote)",
+    "date": [
+      "2014-05-01",
+      "2014-09-01"
+    ],
+    "content": [
+      "• Creation of the blog part of the site.",
+      "Technologies: PHP • WordPress • CSS • JavaScript"
+    ]
+  },
 ]

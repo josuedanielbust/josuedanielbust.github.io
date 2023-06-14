@@ -3,45 +3,45 @@ layout: default
 ---
 
 <ul class="post-list">
-    {% if site.categories[page.slug] %}
-        {% for post in site.categories[page.slug] %}
-            <list class="row">
-                <div class="col-4">
-                    {% if post.image %}
-                    <a href="{{ post.url | prepend: site.baseurl }}"><div class="post-list-image" style="background-image: url('{{ post.image }}');"></div></a>
-                    {% endif %}
-                </div>
-                <div class="col-8">
-                    <p class="post-list-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-
-                    <p class="post-list-excerpt">{{ post.excerpt | strip_html | truncatewords:25 }}</p>
-                    <div class="post-list-meta row">
-                        <div class="col-4">
-                            <p class="post-list-date"><i class="fa fa-clock-o"></i> {{ post.date | date: "%b %-d, %Y" }}</p>
-                        </div>
-                        <div class="col-4">
-                            <p class="post-list-comments"> <i class="fa fa-comments"></i> <span class="disqus-comment-count" data-disqus-url="{{ post.url | prepend: site.baseurl }}">Comments</span> </p>
-                        </div>
-                        <div class="col-4">
-                            <p class="post-list-readmore"><a href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-terminal"></i> Read more...</a></p>
-                        </div>
-                    </div>
-                </div>
-            </list>
-        {% endfor %}
-    {% else %}
-        <div class="no-category-posts">
-            <p class="errorNumber"><< 404 >></p>
-            <p>There are no posts in this category.</p>
+  {% if site.categories[page.slug] %}
+    {% for post in site.categories[page.slug] %}
+      <li class="row">
+        <div class="col-4">
+          {% if post.image %}
+          <a href="{{ post.url | prepend: site.baseurl }}"><div class="post-list-image" style="background-image: url('{{ post.image }}');"></div></a>
+          {% endif %}
         </div>
-    {% endif %}
-    <div class="row post-list-paginator">
-        <div class="col-6">
-            {% if paginator.previous_page %}<p class="pagination"><a href="{{ paginator.previous_page_path }}"><i class="fas fa-hand-o-left"></i> Previous</a></p>{% endif %}
+        <div class="col-8">
+          <p class="post-list-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+          
+          <p class="post-list-excerpt">{{ post.excerpt | strip_html | truncatewords:25 }}</p>
+          <div class="post-list-meta row">
+            <div class="col-4">
+              <p class="post-list-date"><i class="fa fa-clock-o"></i> {{ post.date | date: "%b %-d, %Y" }}</p>
+            </div>
+            <div class="col-4">
+              <p class="post-list-comments"> <i class="fa fa-comments"></i> <span class="disqus-comment-count" data-disqus-url="{{ post.url | prepend: site.baseurl }}">Comments</span> </p>
+            </div>
+            <div class="col-4">
+              <p class="post-list-readmore"><a href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-terminal"></i> Read more...</a></p>
+            </div>
+          </div>
         </div>
-        <div class="col-6">
-            {% if paginator.next_page %}<p class="pagination"><a href="{{ paginator.next_page_path }}">Next <i class="fas fa-hand-o-right"></i></a></p>{% endif %}
-        </div>
+      </li>
+    {% endfor %}
+  {% else %}
+    <div class="no-category-posts">
+      <p class="errorNumber"><< 404 >></p>
+      <p>There are no posts in this category.</p>
     </div>
+  {% endif %}
+  <div class="row post-list-paginator">
+    <div class="col-6">
+      {% if paginator.previous_page %}<p class="pagination"><a href="{{ paginator.previous_page_path }}"><i class="fas fa-hand-o-left"></i> Previous</a></p>{% endif %}
+    </div>
+    <div class="col-6">
+      {% if paginator.next_page %}<p class="pagination"><a href="{{ paginator.next_page_path }}">Next <i class="fas fa-hand-o-right"></i></a></p>{% endif %}
+    </div>
+  </div>
 </ul>
 <p class="rss-subscribe row" style="text-align: right;"><i class="fa fa-rss"></i> Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

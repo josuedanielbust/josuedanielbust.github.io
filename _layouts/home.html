@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html>
-    {% include head.html %}
-    <body>
-        {% include menu.html %}
-        <div class="slide" id="slide1" data-slide="1">
-            <div class="container row">
-                <div id="content" class="col-8">
-                    <h1>Josue Daniel Bustamante</h1>
-                    <h2>Coffee &amp; Wine Lover - Web Developer &amp; Young Entrepreneur by Passion</h2>                    
-                </div>
-                <div class="col-4">
-                    <img src="/images/chemex.png" alt="Coffee Chemex">
-                </div>
-            </div>
-        </div>
-        <svg class="triangle-down" xmlns="http://www.w3.org/2000/svg" width="100%" height="70" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <path class="triangle" d="M0 0 L50 100 L100 0 Z"></path>
-            <path class="shadow" d="M50 100 L100 40 L100 2 Z"></path>
-        </svg>
-        {{ content }}
-        {% include footer.html %}
-    </body>
+{% include head.html %}
+<body>
+  {% include menu.html %}
+  <div class="slide" id="slide1" data-slide="1">
+    <div class="container row">
+      <div id="content" class="col-8">
+        <h1>Josue Daniel Bustamante</h1>
+        <h2>Developer by Passion - Wine &amp; Coffee Lover</h2>
+        <p>Wine and Coffee fuel my passion for coding! I'm a software engineer with +5 years of experience working with US companies remotely from Colombia. I have some experience as entrepreneur and coding teacher.</p>
+        <p>Visit my <a target="_blank" href="{{ site.github }}">Github</a>! • Read more about me on my <a target="_blank" href="{{ site.linkedin }}">LinkedIn!</a></p>
+      </div>
+      <div class="col-4">
+        <img src="/images/chemex.png" alt="Coffee Chemex">
+      </div>
+    </div>
+  </div>
+  <svg class="triangle-down" xmlns="http://www.w3.org/2000/svg" width="100%" height="70" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path class="triangle" d="M0 0 L50 100 L100 0 Z"></path>
+    <path class="shadow" d="M50 100 L100 40 L100 2 Z"></path>
+  </svg>
+  {{ content }}
+  {% include footer.html %}
+</body>
 </html>
