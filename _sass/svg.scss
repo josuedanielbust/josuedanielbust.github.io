@@ -13,8 +13,8 @@ svg {
       position: relative;
       z-index: 1;
       .shadow {
-        fill: $text-color;
-        stroke: $text-color;
+        fill: $shadows;
+        stroke: $shadows;
       }
     }
     &-cut {

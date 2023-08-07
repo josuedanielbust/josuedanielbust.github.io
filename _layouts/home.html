@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{% if page.lang %}{{ page.lang }}{% else %}en{% endif %}">
 {% include head.html %}
 <body>
   {% include menu.html %}
@@ -12,7 +12,7 @@
         <p>Visit my <a target="_blank" href="{{ site.github }}">Github</a>! • Read more about me on my <a target="_blank" href="{{ site.linkedin }}">LinkedIn!</a></p>
       </div>
       <div class="col-4">
-        <img src="/images/chemex.png" alt="Coffee Chemex">
+        <img src="/images/chemex.png" alt="Coffee Chemex" width="auto" height="auto">
       </div>
     </div>
   </div>
