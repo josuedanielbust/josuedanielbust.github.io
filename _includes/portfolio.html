@@ -1,0 +1,28 @@
+<div id="portfolio">
+  <div class="portfolio">
+    {% for item in site.data.port %}
+      <div class="portfolio-item">
+        <div class="portfolio-item-content">
+          <h3>{{ item.name }}</h3>
+          {% if item.link %}
+            <p>
+              <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-external-link-alt"></i>
+                <span>Website</span>
+              </a>
+            </p>
+          {% endif %}
+          {% if item.categories %}
+            <p>
+              <i class="fas fa-tag"></i>
+              <span>{{ item.categories | join: ', ' }}</span>
+            </p>
+          {% endif %}
+        </div>
+        <div class="portfolio-item-image">
+          <img src="/images/portfolio/{{ item.images.cover }}" alt="{{ item.name }}" />
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

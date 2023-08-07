@@ -6,8 +6,10 @@
       <h1 style="font-size:2.5em;">{% if page.title %}{{ page.title }}{% else %}¡Bienvenidos a mi blog!{% endif %}</h1>
       {% if page.quote %}
         <div class="header-quote">
-          <h2 style="font-size:1.5em;">{% if page.quote %}{{ page.quote }}{% endif %}</h2>
-          <h3 style="font-size:1em;">{% if page.quoteauthor %}{{ page.quoteauthor }}{% endif %}</h3>
+          <h2 style="font-size:1.5em;">{{ page.quote }}</h2>
+          {% if page.quoteauthor %}
+            <h3 style="font-size:1em;">{{ page.quoteauthor }}</h3>
+          {% endif %}
         </div>
       {% endif %}
       <p class="post-meta">
