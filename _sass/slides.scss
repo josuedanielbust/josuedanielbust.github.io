@@ -101,4 +101,9 @@ footer {
   .icons {
     text-align: right;
   }
+  @media screen and (max-width: 768px) {
+    p, .icons {
+      text-align: center;
+    }
+  }
 }
