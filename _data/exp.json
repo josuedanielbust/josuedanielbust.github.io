@@ -1,5 +1,38 @@
 [
   {
+    "what": "Senior Fullstack Engineer",
+    "where": "Parser",
+    "place": "Medellín, Colombia (Remote)",
+    "date": [
+      "2025-06-23",
+      "2025-10-01"
+    ],
+    "content": [
+      "• Developed AI agent that helps the migration and merging of 2 databases.",
+      "Designed and developed AI agent that allows the verification of the legality of a process using RAG.",
+      "Designed and developed CI pipelines ensuring quality via unit testing and security validation.",
+      "Technologies: SQL, Python, LangChain, Docker"
+    ]
+  },
+  {
+    "what": "Senior Node.js Developer",
+    "where": "Globant",
+    "place": "Medellín, Colombia (Remote)",
+    "date": [
+      "2024-05-20",
+      "2025-06-19"
+    ],
+    "content": [
+      "• Contribute to the development of an event-driven platform leveraging AWS, MongoDB, and Confluent Kafka Cloud, enabling seamless event streaming and improved system scalability.",
+      "• Designed and implemented an NPM based event-bus module to standardize event consumption and production across multiple projects, ensuring robust integration, enhanced security and fast updates of all the systems using it.",
+      "• Developed role-based access control (RBAC) and authentication mechanisms to secure the event-streaming platform.",
+      "• Architected and managed AWS environments using Terraform and AWS CLI.",
+      "• Designed and maintained CI/CD pipelines for multiple projects, ensuring rapid, reliable, and automated deployments.",
+      "• Maintain a SQL Server database enhancing the security, deployments, migrations and access control.",
+      "Technologies: SQL, SQL Server, TypeScript, JavaScript, Node.js, Amazon Web Services (AWS), AWS Lambdas, Terraform, Kafka"
+    ]
+  },
+  {
     "what": "Software Engineer",
     "where": "Cocora.io",
     "place": "Medellín, Colombia (Remote)",
@@ -11,7 +44,7 @@
       "• Create and design the services architecture for the web platform.",
       "• Defining technologies, libraries, third party services and patterns to use on the services.",
       "• Stripe integration.",
-      "Technologies: SQL • TypeScript • PostgreSQL • Amazon Web Services (AWS) • React.js • JavaScript • CSS • Node.js • JavaScript"
+      "Technologies: SQL, TypeScript, PostgreSQL, Amazon Web Services (AWS), React.js, JavaScript, CSS, Node.js, JavaScript"
     ]
   },
   {
@@ -27,7 +60,7 @@
       "• Serverless function to generate data exports files that clients can use to export their information. Reducing the friction with databases on production and the stability of the system.",
       "• Debugging of payments flow to improve efficiency and security.",
       "• Stripe integration.",
-      "Technologies: JavaScript • Node.js • PHP • SQL • CSS • AWS • Docker • Serverless • Stripe • ReactJS • Redux"
+      "Technologies: JavaScript, Node.js, PHP, SQL, CSS, AWS, Docker, Serverless, Stripe, ReactJS, Redux"
     ]
   },
   {
@@ -39,7 +72,7 @@
     ],
     "content": [
       "• Technical support on office and web development.",
-      "Technologies: WordPress • Node.js • CSS • Network"
+      "Technologies: WordPress, Node.js, CSS, Network"
     ]
   },
   {
@@ -52,7 +85,7 @@
     ],
     "content": [
       "• More than 60 sites created for franchises puts the principal client/partner company on the Marketing Top 3 Top franchise suppliers by Entrepreneur.",
-      "Technologies: JavaScript • Node.js • PHP • WordPress • CSS"
+      "Technologies: JavaScript, Node.js, PHP, WordPress, CSS"
     ]
   },
   {
@@ -65,7 +98,7 @@
     ],
     "content": [
       "• More than 60 individual sites build for locations of a franchise in less than 1 year.",
-      "Technologies: JavaScript • PHP • WordPress • Node.js • CSS"
+      "Technologies: JavaScript, PHP, WordPress, Node.js, CSS"
     ]
   },
   {
@@ -78,7 +111,7 @@
     ],
     "content": [
       "• More than 120 sites hosted and maintained on the own servers of the company without major interruptions.",
-      "Technologies: JavaScript • PHP • WordPress • Node.js • CSS"
+      "Technologies: JavaScript, PHP, WordPress, Node.js, CSS"
     ]
   },
   {
@@ -105,7 +138,7 @@
     "content": [
       "• Development of the MCV in less than 1 week.",
       "• More than 150 persons reached and attended to the 6 events hosted on cafes around the city to know new people based on the form fills through the website.",
-      "Technologies: Node.js • PostgreSQL • JavaScript • CSS"
+      "Technologies: Node.js, PostgreSQL, JavaScript, CSS"
     ]
   },
   {
@@ -131,7 +164,7 @@
     ],
     "content": [
       "• Creation of the blog part of the site.",
-      "Technologies: PHP • WordPress • CSS • JavaScript"
+      "Technologies: PHP, WordPress, CSS, JavaScript"
     ]
   },
 ]

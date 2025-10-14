@@ -1,10 +1,19 @@
 [
   {
-    "what": "Bachelor's degree: Computer Science",
+    "what": "Specialization, Computer Software Engineering",
     "where": "Universidad EAFIT",
-    "place": "Medellín, Colombia (Remote)",
+    "place": "Medellín, Colombia",
     "date": [
-      "2015-01-01"
+      "2015-07-01"
+    ]
+  },
+  {
+    "what": "Bachelor of Engineering - BE, Systems Engineering",
+    "where": "Universidad EAFIT",
+    "place": "Medellín, Colombia",
+    "date": [
+      "2015-01-19",
+      "2025-06-19"
     ]
   },
   {
