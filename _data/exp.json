@@ -9,8 +9,8 @@
     ],
     "content": [
       "• Developed AI agent that helps the migration and merging of 2 databases.",
-      "Designed and developed AI agent that allows the verification of the legality of a process using RAG.",
-      "Designed and developed CI pipelines ensuring quality via unit testing and security validation.",
+      "• Designed and developed AI agent that allows the verification of the legality of a process using RAG.",
+      "• Designed and developed CI pipelines ensuring quality via unit testing and security validation.",
       "Technologies: SQL, Python, LangChain, Docker"
     ]
   },
